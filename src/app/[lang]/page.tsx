@@ -1,3 +1,4 @@
+import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import ProblemSolution from "@/components/ProblemSolution";
 import { getDictionary } from "@/lib/i18n";
@@ -13,6 +14,7 @@ export default async function Home({
     <main>
       <Hero dictionary={dictionary} />
       <ProblemSolution dictionary={dictionary} />
+      <Features lang={lang} />
     </main>
   );
 }
