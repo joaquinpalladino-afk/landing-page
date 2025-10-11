@@ -22,5 +22,22 @@
       "link2": "Política de Privacidad",
       "part3": "."
     }
+  },
+  "problemSolution": {
+    "heading": "Todas Las Apps de Tareas Apestan (A Su Manera)",
+    "cards": {
+      "postit": {
+        "title": "Las Apps \"Post-it\"",
+        "body": "Sí, son lindas. Hasta que te ahogas en 500 notas sin organizar, cero contexto, y ese proyecto del cliente de hace 3 meses está... ¿en algún lado?"
+      },
+      "corporate": {
+        "title": "Los Monstruos \"Corporativos\"",
+        "body": "Felicidades. Ahora pasas 3 horas gestionando tu gestor de tareas. ¿Tu trabajo real? Esperando mientras configuras otro dashboard."
+      }
+    },
+    "hero": {
+      "title": "Llega Loomtask: Hecho Por Freelancers, Para Freelancers",
+      "body": "Eliminamos la basura y mantuvimos lo que importa. Organización inteligente que funciona como tu cerebro. Funciones que ahorran horas, no las crean. Es gestión de tareas que no estorba—porque tus clientes esperan."
+    }
   }
 }

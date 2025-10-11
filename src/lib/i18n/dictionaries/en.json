@@ -22,5 +22,22 @@
       "link2": "Privacy Policy",
       "part3": "."
     }
+  },
+  "problemSolution": {
+    "heading": "All Task Apps Suck (In Their Own Way)",
+    "cards": {
+      "postit": {
+        "title": "The \"Post-it\" Apps",
+        "body": "Yes, they're pretty. Until you're drowning in 500 unorganized notes, zero context, and that client project from 3 months ago—where is it?"
+      },
+      "corporate": {
+        "title": "The \"Corporate\" Monsters",
+        "body": "Congratulations. You now spend 3 hours managing your task manager. Your real work? Waiting while you configure another dashboard."
+      }
+    },
+    "hero": {
+      "title": "Meet Loomtask: Built By Freelancers, For Freelancers",
+      "body": "We removed the clutter and kept what matters. Smart organization that works like your brain. Features that save hours, not create them. Task management that doesn't get in the way—because your clients are waiting."
+    }
   }
 }
