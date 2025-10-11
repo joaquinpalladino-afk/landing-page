@@ -1,0 +1,26 @@
+{
+  "header": {
+    "features": "Características",
+    "pricing": "Precios",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "altLogo": "Logo de Loomtask",
+    "language": "Idioma",
+    "english": "Inglés",
+    "spanish": "Español"
+  },
+  "hero": {
+    "badge": "Lanzamiento Próximo",
+    "title": "Tareas Que De\nVerdad Se\nTerminan.",
+    "subtitle": "Hecho para freelancers que entregan, no que reorganizan. Potente para escalar tu negocio, simple para usar sin café.",
+    "emailPlaceholder": "tu@email.com",
+    "ctaButton": "Acceso Anticipado",
+    "checkboxLabel": {
+      "part1": "Acepto los ",
+      "link1": "Térmenos de Uso",
+      "part2": " y la ",
+      "link2": "Política de Privacidad",
+      "part3": "."
+    }
+  }
+}

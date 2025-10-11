@@ -1,0 +1,16 @@
+import Hero from "@/components/Hero";
+import { getDictionary } from "@/lib/i18n";
+import { type Locale } from "@/lib/i18n/config";
+
+export default async function Home({
+  params: { lang },
+}: {
+  params: { lang: Locale };
+}) {
+  const dictionary = await getDictionary(lang);
+  return (
+    <main>
+      <Hero dictionary={dictionary} />
+    </main>
+  );
+}

@@ -1,0 +1,26 @@
+{
+  "header": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "altLogo": "Loomtask logo",
+    "language": "Language",
+    "english": "English",
+    "spanish": "Spanish"
+  },
+  "hero": {
+    "badge": "Coming Soon",
+    "title": "Tasks That\nActually Get\nDone.",
+    "subtitle": "Made for freelancers who deliver, not just reorganize. Powerful to scale your business, simple to use without coffee.",
+    "emailPlaceholder": "your@email.com",
+    "ctaButton": "Early Access",
+    "checkboxLabel": {
+      "part1": "I agree to the ",
+      "link1": "Terms of Use",
+      "part2": " and ",
+      "link2": "Privacy Policy",
+      "part3": "."
+    }
+  }
+}
