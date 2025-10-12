@@ -11,6 +11,7 @@ import { useState, useCallback } from "react";
 import ProblemSolution from "@/components/ProblemSolution";
 import Features from "@/components/Features";
 import Founder from "@/components/Founder";
+import CookieBanner from "@/components/CookieBanner";
 
 export default function Home() {
     const [language, setLanguage] = useState<Language>(Language.EN);
@@ -21,6 +22,7 @@ export default function Home() {
 
   return (
     <div>
+            <CookieBanner />
             <Header language={language} onLanguageChange={handleLanguageChange} />
             <Hero language={language} />
             <ProblemSolution language={language} />

@@ -58,7 +58,11 @@ ctaTitle: 'Ready To Ship More?',
 ctaSubtitle: 'Join 500+ freelancers who are done with task app circus. Early access = lifetime discount.',
 
 // Footer
-footerText: `© ${new Date().getFullYear()} Loomtask. Built for shippers.`,
+footerText: `© ${new Date().getFullYear()} Loomtask. All rights reserved.`,
+    footerLinks: [
+      { href: '/terms-of-use', label: 'Terms of Use' },
+      { href: '/privacy-policy', label: 'Privacy Policy' },
+    ],
 
 // FAQ
 faqTitle: 'Quick Answers',
@@ -297,7 +301,11 @@ ctaTitle: '¿Listo Para Entregar Más?',
 ctaSubtitle: 'Unite a 500+ freelancers que se cansaron del circo de apps. Acceso anticipado = descuento de por vida.',
 
 // Footer
-footerText: `© ${new Date().getFullYear()} Loomtask. Hecho para los que entregan.`,
+footerText: `© ${new Date().getFullYear()} Loomtask. Todos los derechos reservados.`,
+    footerLinks: [
+      { href: '/terms-of-use', label: 'Términos de Uso' },
+      { href: '/privacy-policy', label: 'Política de Privacidad' },
+    ],
 
 // FAQ
 faqTitle: 'Respuestas Rápidas',
