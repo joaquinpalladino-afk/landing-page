@@ -8,56 +8,56 @@ interface WaitlistFormProps {
   language: Language;
 }
 
+type Status = 'idle' | 'loading' | 'success' | 'error';
+
 const WaitlistForm: React.FC<WaitlistFormProps> = ({ language }) => {
   const [email, setEmail] = useState('');
-  const [submitted, setSubmitted] = useState(false);
   const [agreed, setAgreed] = useState(false);
+  const [status, setStatus] = useState<Status>('idle');
+  const [message, setMessage] = useState('');
   const copy = COPY[language];
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    if (email && agreed) {
-      console.log('Waitlist signup:', email);
-      setSubmitted(true);
+    if (!email || !agreed) {
+      return;
+    }
+
+    setStatus('loading');
+    setMessage('');
+
+    try {
+      const response = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email }),
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        setStatus('success');
+        setMessage(language === Language.EN ? "You're on the list! We'll be in touch." : "¡Estás en la lista! Nos pondremos en contacto.");
+        setEmail('');
+        setAgreed(false);
+      } else {
+        setStatus('error');
+        setMessage(data.message || (language === Language.EN ? 'Something went wrong. Please try again.' : 'Algo salió mal. Por favor, inténtalo de nuevo.'));
+      }
+    } catch (error) {
+      setStatus('error');
+      setMessage(language === Language.EN ? 'An error occurred. Please try again later.' : 'Ocurrió un error. Por favor, inténtalo más tarde.');
     }
   };
 
-  async function handleSubscribe(email: string) {
-  try {
-    const response = await fetch('/api/subscribe', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ email }),
-    });
-
-    if (response.ok) {
-      console.log("Email sent successfully!");
-          return (
+  if (status === 'success') {
+    return (
       <div className="text-center bg-[#156193]/20 border border-[#156193] text-white py-4 px-6 rounded-lg">
-        <p className="font-semibold">{copy.formSuccess}</p>
+        <p className="font-semibold">{message}</p>
       </div>
     );
-    } else {
-      return (
-      <div className="text-center bg-[red-600]/20 border border-[red-800] text-white py-4 px-6 rounded-lg">
-        <p className="font-semibold">Hubo un problema con su email. Inténtalo de nuevo.</p>
-      </div>
-      );
-    }
-  } catch (error) {
-    console.error('Error subscribing:', error);
-      return (
-      <div className="text-center bg-[red-600]/20 border border-[red-800] text-white py-4 px-6 rounded-lg">
-        <p className="font-semibold">Hubo un problema con la suscripcion. Inténtalo de nuevo.</p>
-      </div>
-      );
-  }
-  }
-
-  if(submitted){
-    handleSubscribe(email);
   }
 
   return (
@@ -73,9 +73,11 @@ const WaitlistForm: React.FC<WaitlistFormProps> = ({ language }) => {
         />
         <button
           type="submit"
-          disabled={!agreed}
-          className={`bg-[#156193] text-white font-bold py-3 px-6 rounded-md hover:bg-blue-700 transition-colors duration-300 shadow-lg shadow-[#156193]/30 ${!agreed ? 'opacity-50 cursor-not-allowed' : ''}`}>
-          {copy.formButton}
+          disabled={!agreed || status === 'loading'}
+          className={`bg-[#156193] text-white font-bold py-3 px-6 rounded-md hover:bg-blue-700 transition-colors duration-300 shadow-lg shadow-[#156193]/30 ${
+            !agreed || status === 'loading' ? 'opacity-50 cursor-not-allowed' : ''
+          }`}>
+          {status === 'loading' ? (language === Language.EN ? 'Joining...' : 'Uniendo...') : copy.formButton}
         </button>
       </div>
       <div className="mt-4 flex items-start">
@@ -98,6 +100,11 @@ const WaitlistForm: React.FC<WaitlistFormProps> = ({ language }) => {
           .
         </label>
       </div>
+      {status === 'error' && (
+        <div className="mt-4 text-center bg-red-600/20 border border-red-800 text-white py-3 px-5 rounded-lg">
+          <p className="font-semibold">{message}</p>
+        </div>
+      )}
     </form>
   );
 };

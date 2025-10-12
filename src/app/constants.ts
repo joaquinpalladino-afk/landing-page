@@ -5,7 +5,7 @@ export const COPY = {
     // Header
     
     // Hero
-   devBadge: 'Coming Soon',
+  devBadge: 'Coming Soon',
 heroTitle: 'Ship Work. Not Excuses.',
 heroSubtitle: 'The task manager that gets out of your way. Built by freelancers who actually ship.',
 
