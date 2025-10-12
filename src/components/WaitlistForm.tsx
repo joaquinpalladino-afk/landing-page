@@ -22,12 +22,42 @@ const WaitlistForm: React.FC<WaitlistFormProps> = ({ language }) => {
     }
   };
 
-  if (submitted) {
-    return (
+  async function handleSubscribe(email: string) {
+  try {
+    const response = await fetch('/api/subscribe', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ email }),
+    });
+
+    if (response.ok) {
+      console.log("Email sent successfully!");
+          return (
       <div className="text-center bg-[#156193]/20 border border-[#156193] text-white py-4 px-6 rounded-lg">
         <p className="font-semibold">{copy.formSuccess}</p>
       </div>
     );
+    } else {
+      return (
+      <div className="text-center bg-[red-600]/20 border border-[red-800] text-white py-4 px-6 rounded-lg">
+        <p className="font-semibold">Hubo un problema con su email. Inténtalo de nuevo.</p>
+      </div>
+      );
+    }
+  } catch (error) {
+    console.error('Error subscribing:', error);
+      return (
+      <div className="text-center bg-[red-600]/20 border border-[red-800] text-white py-4 px-6 rounded-lg">
+        <p className="font-semibold">Hubo un problema con la suscripcion. Inténtalo de nuevo.</p>
+      </div>
+      );
+  }
+  }
+
+  if(submitted){
+    handleSubscribe(email);
   }
 
   return (
