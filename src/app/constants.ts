@@ -4,88 +4,88 @@ export const COPY = {
   [Language.EN]: {
     // Header
     
-    // Hero
-  devBadge: 'Coming Soon',
-heroTitle: 'Ship Work. Not Excuses.',
-heroSubtitle: 'The task manager that gets out of your way. Built by freelancers who actually ship.',
+// Hero 
+devBadge: "⚡In Development",
+heroTitle: "The Task Manager That Actually Gets You",
+heroSubtitle: "Built for freelancers and solopreneurs who are tired of overthinking their to-do list. Not too simple. Not too complex. Just right.",
 
 // Waitlist Form
-formPlaceholder: 'your@email.com',
-formButton: 'Claim Early Access',
-formPrivacy: 'One email when we launch. That`s it.',
-formSuccess: 'You`re in! Check your inbox for something special 🚀',
-formInvalidEmail: "Invalid email address",
-formAgreement: "You must agree to the terms",
+formPlaceholder: "Enter your email",
+formButton: "Join the Waitlist",
+formPrivacy: "We respect your privacy. Unsubscribe anytime.",
+formSuccess: "🎉 You're on the list! Check your email for updates.",
+formInvalidEmail: "Please enter a valid email address",
+formAgreement: "By joining, you agree to receive product updates and early access notifications.",
 
 // Problem/Solution
-problemTitle: 'Task Apps Are Broken. You Know It. We Know It.',
-problemSimpleTitle: 'The "Simple" Ones',
-problemSimpleText: 'Great for grocery lists. Useless when you`re juggling 5 clients, 12 projects, and that invoice due yesterday is... somewhere.',
-problemComplexTitle: 'The "Professional" Ones',
-problemComplexText: '47 features you`ll never use. 3 hours setting up workflows. Meanwhile, your actual work is still waiting.',
-solutionTitle: 'Meet Loomtask: Real Work. Real Simple.',
-solutionText: 'We killed the features you don`t need and perfected the ones you do. Smart tags that think like you. Deadlines that don`t ambush you. Search that actually works. Revolutionary? No. Finally done right? Yes.',
+problemTitle: "You're Not Lazy. Your Tools Are.",
+problemSimpleTitle: "Too Simple = No Structure",
+problemSimpleText: "Apple Notes and basic to-do apps feel lightweight, but when you're juggling 3 clients, a side project, and life admin? You're drowning in chaos with no way to organize what actually matters.",
+problemComplexTitle: "Too Complex = Decision Paralysis",
+problemComplexText: "Notion, ClickUp, and enterprise tools promise everything. But you spend more time configuring databases and choosing templates than actually doing the work. You need to move fast, not build a second brain.",
+solutionTitle: "Meet Your Goldilocks Zone",
+solutionText: "A task manager designed for how you actually work. Organize with smart tags instead of rigid project hierarchies. Get reminders when they matter. No bloat. No learning curve. Just you, your tasks, and momentum.",
 
 // Features
-featuresTitle: 'Built For How You Actually Work',
-featureAuthTitle: 'Start In Seconds',
-featureAuthText: 'Google or GitHub. One click. You`re working. No BS.',
-featureCrudTitle: 'Tasks That Move Fast',
-featureCrudText: 'Create, edit, done, delete. Keyboard shortcuts everywhere. Work at thought-speed.',
-featureTagsTitle: 'One Tag. Total Clarity.',
-featureTagsText: 'Client, project, or context. One tag per task. Find anything instantly.',
-featureNotificationsTitle: 'Never Miss A Deadline',
-featureNotificationsText: 'Smart reminders that respect your workflow. Because ghosting clients kills careers.',
-featureEssentialsTitle: 'The Basics. Perfected.',
-featureEssentialsText: 'Priority levels. Rich descriptions. Lightning search. Dark mode. The stuff that matters.',
-comingSoonTitle: 'And We`re Just Getting Started...',
-comingSoonText: 'AI task breakdown. Time tracking that works. Team collaboration. We`re building what you asked for, not what a committee decided.',
+featuresTitle: "Everything You Need. Nothing You Don't.",
+featureAuthTitle: "Sign In & Start",
+featureAuthText: "One click with Google or GitHub. No forms, no friction, no wasted time setting up accounts.",
+featureCrudTitle: "Create, Update, Done",
+featureCrudText: "Add tasks in seconds. Edit on the fly. Check them off and feel that dopamine hit. Task management shouldn't feel like project management.",
+featureTagsTitle: "Smart Tags, Not Projects",
+featureTagsText: "Forget nested folders and project hierarchies. Tag your tasks contextually and see what matters right now. #urgent #client #personal—done.",
+featureNotificationsTitle: "Reminders That Actually Help",
+featureNotificationsText: "Set due dates and get notified before deadlines sneak up on you. Scheduled reminders keep you on track without the overwhelm.",
+featureEssentialsTitle: "The Essentials, Perfected",
+featureEssentialsText: "Fast. Clean. No distractions. Built for people who want to get things done, not manage software.",
+comingSoonTitle: "And We're Just Getting Started",
+comingSoonText: "Recurring tasks, calendar sync, mobile app, integrations, and more—all coming soon. We're building this with you, based on your feedback.",
 
 // Mockup
-mockupTitle: 'See It. Love It. Ship With It.',
-mockupSubtitle: 'Dark mode first. Because we know when real work happens.',
-mockupScreenshot2: 'One task. One tag. Zero complexity. This is how focus feels.',
-mockupScreenshot3: 'Everything you need in one view. Edit inline. Ship faster.',
-mockupScreenshot4: 'Smart notifications that respect your time. Never drop the ball again.',
+mockupTitle: "Simple Enough to Love. Powerful Enough to Trust.",
+mockupSubtitle: "See how easy it is to take control of your workday",
+mockupScreenshot2: "Organize with smart tags—no rigid project structures",
+mockupScreenshot3: "Clean, distraction-free interface that respects your focus",
+mockupScreenshot4: "Never miss a deadline with smart notifications",
 
 // Founder
-founderQuote: '"I tried everything. Notion, Asana, Trello, sticky notes on my monitor. They all failed me. So I built what I needed: a task manager that respects my time and my sanity. If you ship for a living, this is for you."',
-founderName: 'Joaquin Palladino',
-founderTitle: 'Founder & Power User',
+founderQuote: "I built this because I was tired of choosing between apps that did too little and apps that did too much. As a solopreuner, I needed something that just worked—fast, focused, and flexible. This is the tool I wish I had from day one.",
+founderName: "Joaquin Palladino",
+founderTitle: "Founder & Developer",
 
 // CTA
-ctaTitle: 'Ready To Ship More?',
-ctaSubtitle: 'Join 500+ freelancers who are done with task app circus. Early access = lifetime discount.',
+ctaTitle: "Lock In Your Founder Discount",
+ctaSubtitle: "First 100 users get 50% off forever. $5/month instead of $10. Join the waitlist now and be first in line when we launch.",
 
 // Footer
-footerText: `© ${new Date().getFullYear()} Loomtask. All rights reserved.`,
-    footerLinks: [
-      { href: '/terms-of-use', label: 'Terms of Use' },
-      { href: '/privacy-policy', label: 'Privacy Policy' },
-    ],
+footerText: "© 2025 Loomtask. All rights reserved.",
+footerLinks: [
+  { href: "/privacy-policy", label: "Privacy Policy" },
+  { href: "/terms-of-use", label: "Terms of Service" },
+],
 
 // FAQ
-faqTitle: 'Quick Answers',
+faqTitle: "Questions? We've Got Answers.",
 faqs: [
   {
-    question: 'What makes Loomtask different?',
-    answer: 'Speed and focus. No bloat, no 20-step onboarding, no features you`ll never touch. Just pure task management that works the way your brain does.',
+    question: "When will the app launch?",
+    answer: "We're working hard to ship a solid v1. Waitlist members will be first to know when we're ready to roll out early access—expected in the coming months. You'll get regular updates along the way."
   },
   {
-    question: 'Who is this for?',
-    answer: 'Freelancers, consultants, and solo professionals who measure success in shipped work, not organized dashboards.',
+    question: "What makes this different from other task managers?",
+    answer: "Most apps are either too bare-bones or too bloated. We're hitting the sweet spot: structured enough to keep you organized with smart tags and notifications, but simple enough that you'll actually use it daily without setup fatigue."
   },
   {
-    question: 'Why should I trust another task app?',
-    answer: 'Don`t. Join the waitlist, try it free for a week when we launch, and decide for yourself. We`re betting you won`t go back.',
+    question: "Will there be a free plan?",
+    answer: "We're focused on building a sustainable product, so we're launching with a paid model at $10/month. However, the first 100 users get lifetime access at 50% off—just $5/month forever. No gimmicks, no price hikes for early supporters."
   },
   {
-    question: 'What`s the damage?',
-    answer: '$3 USD /month after your free week. Less than your morning coffee. More valuable than your current task manager.',
+    question: "Can I use this on mobile?",
+    answer: "At launch, we'll have a responsive web app that works on mobile browsers. A dedicated mobile app is high on our roadmap and will be built based on user feedback after the initial release."
   },
   {
-    question: 'When can I use it?',
-    answer: 'We`re in final testing. Drop your email and you`ll be first in when we open the doors. Plus, early access = lifetime discount.',
+    question: "How do you handle my data and privacy?",
+    answer: "Your data is yours. We use industry-standard encryption, secure authentication via Google/GitHub, and we'll never sell your information. You can export or delete your data anytime. Full privacy policy will be available before launch."
   },
 ],
 
@@ -248,87 +248,88 @@ cookiesPolicy: {
     },
   },
   [Language.ES]: {
-   devBadge: 'Próximamente',
-heroTitle: 'Entrega Trabajo. No Excusas.',
-heroSubtitle: 'El gestor de tareas que no estorba. Creado por freelancers que entregan de verdad.',
+ // Hero 
+devBadge: "⚡ En Desarrollo",
+heroTitle: "El Gestor de Tareas Que Te Entiende",
+heroSubtitle: "Creado para freelancers y emprendedores que están hartos de complicarse con su lista de pendientes. Ni muy básico. Ni muy complejo. En el punto justo.",
 
 // Waitlist Form
-formPlaceholder: 'tu@email.com',
-formButton: 'Reserva Tu Acceso',
-formPrivacy: 'Un email cuando lancemos. Nada más.',
-formSuccess: '¡Dentro! Revisa tu inbox, hay algo especial esperándote 🚀',
-formInvalidEmail: "Dirección de correo electrónico inválida",
-formAgreement: "Debes aceptar los términos",
+formPlaceholder: "Ingresá tu email",
+formButton: "Unirme a la Lista",
+formPrivacy: "Respetamos tu privacidad. Cancelá cuando quieras.",
+formSuccess: "🎉 ¡Ya estás en la lista! Revisá tu email para actualizaciones.",
+formInvalidEmail: "Por favor ingresá un email válido",
+formAgreement: "Al unirte, aceptás recibir novedades del producto y acceso anticipado.",
 
 // Problem/Solution
-problemTitle: 'Las Apps de Tareas Están Rotas. Lo Sabes. Nosotros También.',
-problemSimpleTitle: 'Las "Simples"',
-problemSimpleText: 'Geniales para la lista del super. Inútiles cuando manejas 5 clientes, 12 proyectos, y esa factura de ayer está... en algún lado.',
-problemComplexTitle: 'Las "Profesionales"',
-problemComplexText: '47 funciones que nunca usarás. 3 horas configurando workflows. Mientras tanto, tu trabajo real sigue esperando.',
-solutionTitle: 'Conoce Loomtask: Trabajo Real. Realmente Simple.',
-solutionText: 'Matamos las funciones que no necesitas y perfeccionamos las que sí. Tags inteligentes que piensan como vos. Deadlines que no te emboscan. Búsqueda que funciona. ¿Revolucionario? No. ¿Por fin bien hecho? Sí.',
+problemTitle: "No Sos Vos. Son Tus Herramientas.",
+problemSimpleTitle: "Muy Simple = Sin Estructura",
+problemSimpleText: "Las notas de Apple y apps básicas se sienten livianas, pero cuando estás malabareando 3 clientes, un proyecto personal y cosas de la vida… terminás ahogado en caos sin forma de organizar lo que realmente importa.",
+problemComplexTitle: "Muy Complejo = Parálisis Total",
+problemComplexText: "Notion, ClickUp y las herramientas empresariales prometen todo. Pero terminás perdiendo más tiempo armando bases de datos y eligiendo plantillas que haciendo el trabajo real. Necesitás moverte rápido, no construir un segundo cerebro.",
+solutionTitle: "Encontrá Tu Punto Perfecto",
+solutionText: "Un gestor de tareas diseñado para cómo trabajás realmente. Organizá con etiquetas inteligentes en vez de jerarquías rígidas de proyectos. Recibí recordatorios cuando importan. Sin cosas de más. Sin curva de aprendizaje. Solo vos, tus tareas y progreso constante.",
 
 // Features
-featuresTitle: 'Diseñado Para Como Trabajas De Verdad',
-featureAuthTitle: 'Empieza En Segundos',
-featureAuthText: 'Google o GitHub. Un click. Ya estás trabajando. Sin vueltas.',
-featureCrudTitle: 'Tareas Que Vuelan',
-featureCrudText: 'Crear, editar, completar, borrar. Atajos por todos lados. Trabaja a la velocidad del pensamiento.',
-featureTagsTitle: 'Un Tag. Claridad Total.',
-featureTagsText: 'Cliente, proyecto o contexto. Un tag por tarea. Encuentra todo al instante.',
-featureNotificationsTitle: 'Cero Deadlines Perdidos',
-featureNotificationsText: 'Recordatorios inteligentes que respetan tu ritmo. Porque ghostear clientes mata carreras.',
-featureEssentialsTitle: 'Lo Básico. Perfeccionado.',
-featureEssentialsText: 'Niveles de prioridad. Descripciones completas. Búsqueda instantánea. Modo oscuro. Lo que importa.',
-comingSoonTitle: 'Y Recién Empezamos...',
-comingSoonText: 'IA para desglosar tareas. Time tracking que sirve. Colaboración en equipo. Construimos lo que pediste, no lo que decidió un comité.',
+featuresTitle: "Todo Lo Que Necesitás. Nada Que Sobre.",
+featureAuthTitle: "Entrá y Arrancá",
+featureAuthText: "Un click con Google o GitHub. Sin formularios, sin fricciones, sin perder tiempo configurando cuentas.",
+featureCrudTitle: "Creá, Actualizá, Listo",
+featureCrudText: "Agregá tareas en segundos. Editá al vuelo. Tildá y sentí esa satisfacción. Gestionar tareas no debería sentirse como gestionar proyectos.",
+featureTagsTitle: "Etiquetas Inteligentes, No Proyectos",
+featureTagsText: "Olvidate de carpetas anidadas y jerarquías de proyectos. Etiquetá tus tareas por contexto y mirá lo que importa ahora. #urgente #cliente #personal—listo.",
+featureNotificationsTitle: "Recordatorios Que Ayudan de Verdad",
+featureNotificationsText: "Establecé fechas límite y recibí notificaciones antes de que los deadlines te agarren desprevenido. Recordatorios programados te mantienen en la cancha sin agobiarte.",
+featureEssentialsTitle: "Lo Esencial, Perfeccionado",
+featureEssentialsText: "Rápido. Limpio. Sin distracciones. Construido para gente que quiere hacer las cosas, no administrar software.",
+comingSoonTitle: "Y Recién Empezamos",
+comingSoonText: "Tareas recurrentes, sincronización con calendario, app móvil, integraciones y más—todo en camino. Estamos construyendo esto con vos, basándonos en tu feedback.",
 
 // Mockup
-mockupTitle: 'Miralo. Enamorate. Entrega Con Él.',
-mockupSubtitle: 'Modo oscuro de entrada. Porque sabemos cuándo pasa el trabajo real.',
-mockupScreenshot2: 'Una tarea. Un tag. Cero complejidad. Así se siente el foco.',
-mockupScreenshot3: 'Todo lo que necesitas en una vista. Edita al vuelo. Entrega más rápido.',
-mockupScreenshot4: 'Notificaciones inteligentes que respetan tu tiempo. No se te escapa nada.',
+mockupTitle: "Lo Suficientemente Simple Para Amarlo. Lo Suficientemente Potente Para Confiar.",
+mockupSubtitle: "Mirá qué fácil es tomar control de tu día",
+mockupScreenshot2: "Organizá con etiquetas inteligentes—sin estructuras rígidas",
+mockupScreenshot3: "Interfaz limpia y sin distracciones que respeta tu concentración",
+mockupScreenshot4: "Nunca te pierdas un deadline con notificaciones inteligentes",
 
 // Founder
-founderQuote: '"Probé todo. Notion, Asana, Trello, post-its en el monitor. Todos me fallaron. Así que construí lo que necesitaba: un gestor de tareas que respeta mi tiempo y mi cordura. Si vivís de entregar, esto es para vos."',
-founderName: 'Joaquin Palladino',
-founderTitle: 'Fundador & Heavy User',
+founderQuote: "Construí esto porque estaba cansado de elegir entre apps que hacían muy poco y apps que hacían demasiado. Como emprendedor, necesitaba algo que simplemente funcionara—rápido, enfocado y flexible. Esta es la herramienta que me hubiera encantado tener desde el día uno.",
+founderName: "Joaquin Palladino",
+founderTitle: "Fundador y Desarrollador",
 
 // CTA
-ctaTitle: '¿Listo Para Entregar Más?',
-ctaSubtitle: 'Unite a 500+ freelancers que se cansaron del circo de apps. Acceso anticipado = descuento de por vida.',
+ctaTitle: "Asegurá Tu Descuento de Fundador",
+ctaSubtitle: "Los primeros 100 usuarios obtienen 50% de descuento para siempre. $5/mes en lugar de $10. Unite a la lista ahora y sé de los primeros cuando lancemos.",
 
 // Footer
-footerText: `© ${new Date().getFullYear()} Loomtask. Todos los derechos reservados.`,
-    footerLinks: [
-      { href: '/terms-of-use', label: 'Términos de Uso' },
-      { href: '/privacy-policy', label: 'Política de Privacidad' },
-    ],
+footerText: "© 2025 Loomtask. Todos los derechos reservados.",
+footerLinks: [
+  { href: "/privacy-policy", label: "Política de Privacidad" },
+  { href: "/terms-of-use", label: "Términos de Servicio" },
+],
 
 // FAQ
-faqTitle: 'Respuestas Rápidas',
+faqTitle: "¿Preguntas? Tenemos Respuestas.",
 faqs: [
   {
-    question: '¿Qué hace diferente a Loomtask?',
-    answer: 'Velocidad y foco. Sin bloat, sin onboarding de 20 pasos, sin funciones que nunca vas a tocar. Solo gestión de tareas pura que funciona como tu cerebro.',
+    question: "¿Cuándo se lanza la app?",
+    answer: "Estamos trabajando a full para sacar una v1 sólida. Los miembros de la lista serán los primeros en saber cuándo estemos listos para el acceso anticipado—esperamos que en los próximos meses. Te mantendremos al tanto con actualizaciones regulares."
   },
   {
-    question: '¿Para quién es esto?',
-    answer: 'Freelancers, consultores y profesionales independientes que miden el éxito en trabajo entregado, no en dashboards organizados.',
+    question: "¿Qué la hace diferente de otros gestores de tareas?",
+    answer: "La mayoría de las apps son muy básicas o están sobrecargadas. Nosotros apuntamos al punto justo: suficientemente estructurada para mantenerte organizado con etiquetas inteligentes y notificaciones, pero tan simple que la vas a usar todos los días sin cansarte de configurar."
   },
   {
-    question: '¿Por qué confiar en otra app de tareas?',
-    answer: 'No lo hagas. Unite a la lista de espera, probala gratis una semana cuando lancemos, y decidí vos mismo. Apostamos que no vas a volver atrás.',
+    question: "¿Habrá un plan gratuito?",
+    answer: "Estamos enfocados en construir un producto sustentable, así que lanzamos con un modelo pago de $10/mes. Sin embargo, los primeros 100 usuarios obtienen acceso de por vida con 50% de descuento—solo $5/mes para siempre. Sin trucos, sin aumentos de precio para los early adopters."
   },
   {
-    question: '¿Cuánto duele?',
-    answer: '$3 USD /mes después de tu semana gratis. Menos que tu café. Más valioso que tu gestor actual.',
+    question: "¿Puedo usarla en el celular?",
+    answer: "En el lanzamiento, tendremos una web app responsive que funciona en navegadores móviles. Una app móvil dedicada está alta en nuestro roadmap y la construiremos basándonos en el feedback de usuarios después del lanzamiento inicial."
   },
   {
-    question: '¿Cuándo puedo usarla?',
-    answer: 'Estamos en testing final. Dejá tu email y vas a ser de los primeros cuando abramos. Bonus: acceso anticipado = descuento de por vida.',
+    question: "¿Cómo manejan mis datos y privacidad?",
+    answer: "Tus datos son tuyos. Usamos encriptación estándar de la industria, autenticación segura vía Google/GitHub, y nunca venderemos tu información. Podés exportar o eliminar tus datos cuando quieras. La política de privacidad completa estará disponible antes del lanzamiento."
   },
 ],
 
