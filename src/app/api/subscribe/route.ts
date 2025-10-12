@@ -1,20 +1,28 @@
 
 import { NextRequest, NextResponse } from "next/server";
+import { z } from "zod";
 import { supabase } from "@/utils/supabase";
 
-const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const emailSchema = z.object({
+  email: z.string().email({ message: "Invalid email address" }),
+});
 
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { email } = body;
+    const result = emailSchema.safeParse(body);
 
-    if (!email || !emailRegex.test(email)) {
+    if (!result.success) {
       return new NextResponse(
-        JSON.stringify({ message: "Invalid email address" }),
+        JSON.stringify({
+          message: "Invalid input",
+          errors: result.error.flatten().fieldErrors,
+        }),
         { status: 400 }
       );
     }
+
+    const { email } = result.data;
 
     const { data: existingEmails, error: selectError } = await supabase
       .from("waitlist")
@@ -23,7 +31,10 @@ export async function POST(request: NextRequest) {
 
     if (selectError) {
       console.error("Error checking for existing email:", selectError);
-      throw selectError;
+      return new NextResponse(
+        JSON.stringify({ message: "Database error" }),
+        { status: 500 }
+      );
     }
 
     if (existingEmails && existingEmails.length > 0) {
@@ -39,7 +50,10 @@ export async function POST(request: NextRequest) {
 
     if (insertError) {
       console.error("Error inserting email:", insertError);
-      throw insertError;
+      return new NextResponse(
+        JSON.stringify({ message: "Database error" }),
+        { status: 500 }
+      );
     }
 
     return new NextResponse(

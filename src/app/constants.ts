@@ -14,6 +14,8 @@ formPlaceholder: 'your@email.com',
 formButton: 'Claim Early Access',
 formPrivacy: 'One email when we launch. That`s it.',
 formSuccess: 'You`re in! Check your inbox for something special 🚀',
+formInvalidEmail: "Invalid email address",
+formAgreement: "You must agree to the terms",
 
 // Problem/Solution
 problemTitle: 'Task Apps Are Broken. You Know It. We Know It.',
@@ -171,7 +173,7 @@ faqs: [
         },
         {
           title: '7. User rights (for EU/EEA residents)',
-          content: 'You have, among others, the following rights regarding your personal data:\n\nRight of access: request a copy of the data we process about you.\n\nRight of rectification: correct inaccurate or incomplete data.\n\nRight to erasure (right to be forgotten): under certain circumstances you may request deletion of your data.\n\nRight to restriction of processing.\n\nRight to data portability (where applicable).\n\nRight to object to processing for reasons related to your particular situation, and specifically to marketing communications.\n\nRight to withdraw consent at any time (without affecting the lawfulness of prior processing).\n\nRight to lodge a complaint with the competent supervisory authority (for example, your national data protection authority or the authority of your EU member state).\n\nTo exercise any of these rights, contact: privacy@loomtask.com (provisional address). Please include an identifier that allows us to locate your data and the specific request. We will respond within the timeframes required by applicable law.',
+          content: 'You have, among others, the following rights regarding your personal data:\n\nRight of access: request a copy of the data we process about you.\n\nRight of rectification: correct inaccurate or incomplete data.\n\nRight to erasure (right to be forgotten): under certain circumstances you may request deletion of your data.\n\nRight to restriction of processing.\n\nRight to data portability (where applicable).\n\nRight to object to processing for reasons related to your particular situation, and specifically to marketing communications.\n\nRight to withdraw consent at any time (without affecting the lawfulness of prior processing).\n\nRight to lodge a complaint with the competent supervisory authority (for example, your national data protection authority or the authority of your EU member state).\n\nTo exercise any of these rights, contact: privacy@loomtask.com (provisional address). Please include an identifier that allows us to locate your. data and the specific request. We will respond within the timeframes required by applicable law.',
         },
         {
           title: '8. Security',
@@ -214,6 +216,8 @@ formPlaceholder: 'tu@email.com',
 formButton: 'Reserva Tu Acceso',
 formPrivacy: 'Un email cuando lancemos. Nada más.',
 formSuccess: '¡Dentro! Revisa tu inbox, hay algo especial esperándote 🚀',
+formInvalidEmail: "Dirección de correo electrónico inválida",
+formAgreement: "Debes aceptar los términos",
 
 // Problem/Solution
 problemTitle: 'Las Apps de Tareas Están Rotas. Lo Sabes. Nosotros También.',
