@@ -85,61 +85,98 @@ faqs: [
   },
 ],
 
+//Cookies Policy
+cookiesPolicy: {
+ "title": "Cookie Policy — Loomtask",
+  "lastUpdated": "Last updated: October 12, 2025",
+  "dataController": "Data Controller: [Your Company's Legal Name] — [Your Full Address] — Email: [your-contact-email@loomtask.com]",
+  "sections": [
+    {
+      "title": "1. What Are Cookies?",
+      "content": "Cookies are small text files that are placed on your computer or mobile device when you visit a website. They are widely used to make websites work, or work more efficiently, as well as to provide information to the owners of the site. This Cookie Policy explains how we at Loomtask ('[Your Company's Legal Name]') use cookies on our landing page and the choices you have."
+    },
+    {
+      "title": "2. How We Use Cookies",
+      "content": "We use cookies for a very limited and specific purpose: to understand how visitors interact with our website. This allows us to improve our landing page and provide a better experience for our future users. We do not use cookies for advertising or tracking you across other websites. Our use of cookies is divided into two categories, as explained below."
+    },
+    {
+      "title": "3. Types of Cookies We Use",
+      "content": "Strictly Necessary Cookies:\nPurpose: These cookies are essential for you to browse the website and use its features, such as remembering your cookie consent preferences. Without these cookies, the services you have asked for cannot be provided.\nConsent: These cookies do not require your consent as they are fundamental to the site's operation.\nExamples: cookie_consent_status (to remember if you've accepted or rejected cookies).\n\nAnalytical / Performance Cookies:\nPurpose: These cookies collect information about how you use our website, like which pages you visited and which links you clicked on. This information is aggregated and anonymized and is used solely to help us improve our website's performance.\nConsent: We will only use these cookies if you give us your explicit consent through the cookie consent banner that appears when you first visit our site.\nExamples: _ga, _gid (Used by Google Analytics to distinguish users and analyze traffic)."
+    },
+    {
+      "title": "4. Your Consent",
+      "content": "In compliance with the GDPR and the ePrivacy Directive, we ask for your explicit consent before placing any non-essential cookies on your device. When you first visit our landing page, you will be presented with a cookie banner where you can:\n\n- Accept all cookies.\n- Reject all non-essential cookies.\n- Configure your preferences.\n\nIf you do not provide consent, we will not use analytical cookies."
+    },
+    {
+      "title": "5. How to Manage and Delete Cookies",
+      "content": "You have full control over cookies. You can withdraw your consent or change your preferences at any time.\n\nVia Our Cookie Banner: You can change your settings at any time by accessing the cookie management options on our site (usually a floating icon or a link in the footer).\n\nVia Your Browser: Most web browsers allow some control of most cookies through the browser settings. You can set your browser to block cookies or to alert you when cookies are being sent. To find out more about cookies, including how to see what cookies have been set, visit www.aboutcookies.org or www.allaboutcookies.org.\n\nPlease note that if you block all cookies (including essential cookies), you may not be able to access all or parts of our site."
+    },
+    {
+      "title": "6. Third-Party Cookies (Google Analytics)",
+      "content": "We use Google Analytics to help us analyze traffic on our landing page. Google Analytics uses cookies to collect this data. To protect your privacy, we have implemented IP anonymization, which means Google will truncate/anonymize the last octet of your IP address. For more information on how Google uses this data, please visit Google's Privacy & Terms page."
+    },
+    {
+      "title": "7. Changes to This Cookie Policy",
+      "content": "We may update this policy to reflect changes in technology or legislation. Any changes will be posted on this page with an updated revision date."
+    },
+    {
+      "title": "8. Contact Us",
+      "content": "If you have any questions about our use of cookies, please contact us at: [your-contact-email@loomtask.com]."
+    }
+  ]
+},
+
     // Privacy Policy
     privacyPolicy: {
-      title: 'Privacy Policy — Loomtask',
-      lastUpdated: 'Last updated: [date — e.g. October 9, 2025]',
-      dataController: 'Data Controller: [Legal name of the company / responsible person] — [full address] — Email: [contact@loomtask.example]',
-      sections: [
-        {
-          title: 'Short summary (what we do with your data)',
-          content: 'Loomtask collects only your email address when you subscribe on the landing page to receive updates about the product’s development and launch. We also use Google Analytics on the landing page to measure user interaction and behavior for site improvement. We do not sell personal data to third parties. For users in the European Union, processing is based on the consent of the data subject for sending communications and for analytical cookies.',
-        },
-        {
-          title: 'Data we collect',
-          content: 'Email address (personal data): to send newsletters and updates about Loomtask.\n\nUsage / analytics data (e.g., pages visited, session duration, cookie identifiers) collected via Google Analytics on the landing page; these may include technical identifiers and, depending on configuration, IP address in a truncated/aggregated form.',
-        },
-        {
-          title: 'Purposes and legal bases',
-          content: 'Sending updates and communications about the product (limited direct marketing): legal basis = consent of the data subject (Art. 6(1)(a) GDPR) for users in the EU/EEA. Consent must be freely given, specific, informed and unambiguous — provided via an unchecked checkbox on the landing page.\n\nWeb analytics (Google Analytics): legal basis = consent for the EU when the processing involves non-essential cookies or international transfers. We will only activate analytics cookies if the user gives explicit consent.',
-        },
-        {
-          title: 'Cookies and trackers / Google Analytics',
-          content: 'We use a consent management solution (cookie banner) that distinguishes between: strictly necessary cookies (if any), analytical cookies (Google Analytics) and other categories. Analytical cookies are activated only after the user’s explicit consent.\n\nGoogle Analytics: Google may transfer data outside the EEA (e.g., to servers in the U.S.). Several European data protection authorities have raised concerns about compatibility of Google Analytics with the GDPR due to potential international transfers and risks of re-identification. We adopt mitigation measures (IP anonymization, limited retention, contractual safeguards where possible) and request user consent for analytics cookies. Regulatory developments may require further technical or organizational changes; in that event we will update our practices. Provide a clear reject/opt-out option in the banner.',
-        },
-        {
-          title: 'International data transfers',
-          content: 'EU users → Argentina: Argentina has an EU adequacy decision that may allow transfers from the EU to Argentina under certain conditions; processing by a controller based in Argentina can therefore be covered by that adequacy decision. Nevertheless, third-party providers (e.g., Google) may involve additional transfers outside the EEA that require safeguards.\n\nEU users → providers in the U.S. (e.g., Google): There is regulatory risk relating to transfers to the U.S.; therefore we require user consent and implement technical/contractual measures where feasible. If required by authorities, we may suspend or modify the use of such services.',
-        },
-        {
-          title: 'Storage periods',
-          content: 'Email address: we will retain your email while there is an ongoing interest to send updates and until you request unsubscription; upon unsubscribe we will remove the email within [e.g., 30 days], unless legal obligations require retention.\n\nAnalytics data (Google Analytics): retained for a limited, configurable period (e.g., 2–14 months) and aggregated/anonymized whenever possible to reduce identifiability.',
-        },
-        {
-          title: 'Your rights (EU / GDPR) and how to exercise them',
-          content: 'If you are located in the EU/EEA you have, among others, the rights of access, rectification, erasure (right to be forgotten), restriction of processing, data portability and objection; and the right to withdraw consent at any time without affecting the lawfulness of processing based on consent before its withdrawal. To exercise these rights contact: [contact@loomtask.example] or send a postal request to [address]. We will respond within the timeframes required by law (typically one month).',
-        },
-        {
-          title: 'Notes for users in the United States (including California)',
-          content: 'Laws such as the CCPA/CPRA in California grant California residents specific rights (for example, the right to request access, deletion, and to opt out of the sale or sharing of personal information). Loomtask does not sell personal data. We will provide mechanisms to handle opt-outs and data subject requests under the CCPA/CPRA as applicable.',
-        },
-        {
-          title: 'Security',
-          content: 'We implement reasonable technical and organizational measures to protect personal data against loss, unauthorized access, disclosure or alteration. No system is entirely risk-free; if a security breach affecting personal data occurs that poses a risk to individuals’ rights and freedoms, we will notify the competent supervisory authority and, where appropriate, affected persons in accordance with applicable law.',
-        },
-        {
-          title: 'Minors',
-          content: 'Our landing page is not intended for children under [16] years (or the applicable age in the user’s jurisdiction). We do not knowingly collect or process data from minors. If you are a minor, please do not submit your email without consent from your legal guardian. If we become aware that we have collected personal data from a minor without appropriate authorization, we will delete it.',
-        },
-        {
-          title: 'Changes to this policy',
-          content: 'We may update this policy to reflect regulatory changes or changes in our services. We will publish the “Last updated” date above and, if changes are material, will inform subscribers by email when appropriate.',
-        },
-        {
-          title: 'Contact and supervisory authority',
-          content: 'For questions or to exercise your rights: Email: [contact@loomtask.example] — Address: [full address]. If you believe your rights have not been respected, you have the right to lodge a complaint with the competent supervisory authority (for example, the data protection authority in your EU Member State).',
-        },
-      ],
+"title": "Privacy Policy — Loomtask",
+"lastUpdated": "Last updated: October 12, 2025",
+"dataController": "Data Controller: [Your Company's Legal Name] — [Your Full Company Address] — Email: [your-contact-email@loomtask.com]",
+"sections": [
+{
+"title": "1. Introduction and Our Commitment",
+"content": "Welcome to Loomtask ('we', 'us', or 'our'). We are committed to protecting your privacy and handling your data in an open and transparent manner. This Privacy Policy explains how we collect, use, and protect your information when you visit our landing page and subscribe to our waitlist."
+},
+{
+"title": "2. Information We Collect and Why",
+"content": "We collect the minimum amount of information necessary to provide our service and improve your experience.\n\n- Personal Information (Email Address): When you voluntarily subscribe to our waitlist, we collect your email address. We use this solely to send you updates about Loomtask's development, notify you of our launch, and provide information about early access opportunities.\n\n- Usage Data (Analytics): We use Google Analytics to understand how visitors interact with our website. This helps us improve our landing page. The data collected is aggregated and largely anonymous, including your anonymized IP address, browser type, pages visited, and session duration. We have configured Google Analytics to anonymize IP addresses to further protect your privacy."
+},
+{
+"title": "3. Legal Basis for Processing Your Data (GDPR)",
+"content": "Our legal basis for processing your personal data depends on the specific context:\n\n- Waitlist Subscription (Email): We process your email address based on your explicit consent (Article 6(1)(a) GDPR), which you provide by entering your email and actively submitting the form.\n\n- Analytics Cookies: We place non-essential analytics cookies on your device based on your explicit consent (Article 6(1)(a) GDPR), which you can grant or deny through our cookie consent banner when you first visit our site."
+},
+{
+"title": "4. How We Share Your Information",
+"content": "We do not and will not sell your personal data. We only share information with trusted third parties who act as our service providers (Data Processors):\n\n- Google Analytics: To analyze website traffic. Google has its own robust privacy policies and is compliant with data protection laws. Data transfers are protected by Standard Contractual Clauses (SCCs).\n\n- Email Service Provider: We may use a third-party email service to manage our waitlist and send communications. Any provider we use will be vetted for GDPR compliance and will have a Data Processing Agreement (DPA) in place with us.\n\n- Legal Obligations: We may disclose your information if required to do so by law or in response to valid requests by public authorities."
+},
+{
+"title": "5. Your Data Protection Rights (GDPR)",
+"content": "As a user, you have comprehensive rights over your personal data:\n\n- Right to Access: You can request a copy of the information we hold about you.\n- Right to Rectification: You can ask us to correct any inaccurate information.\n- Right to Erasure ('Right to be Forgotten'): You can request the deletion of your personal data.\n- Right to Restrict Processing: You can ask us to limit the use of your data.\n- Right to Data Portability: You can request your data in a structured, machine-readable format.\n- Right to Object: You can object to us processing your data for certain purposes.\n- Right to Withdraw Consent: You can withdraw your consent at any time. Unsubscribing from our waitlist is a direct way to do this.\n- Right to Lodge a Complaint: You have the right to lodge a complaint with a supervisory authority if you feel we have not handled your data correctly.\n\nTo exercise any of these rights, please contact us at [your-contact-email@loomtask.com]."
+},
+{
+"title": "6. Data Security and Retention",
+"content": "- Security: We implement appropriate technical and organizational measures to protect your data from unauthorized access, loss, or destruction. However, no internet transmission is 100% secure.\n\n- Retention: We retain your email address only for as long as you remain on our waitlist. If you unsubscribe, your email will be permanently deleted from our active lists within 30 days. Aggregated analytics data is retained in Google Analytics for a period of 14 months before automatic deletion."
+},
+{
+"title": "7. International Data Transfers",
+"content": "Information we collect may be stored and processed in any country where we or our service providers (like Google) have facilities. This may involve transferring your data outside the European Economic Area (EEA). When we do this, we ensure a similar degree of protection is afforded to it by using legally-approved mechanisms such as Standard Contractual Clauses (SCCs)."
+},
+{
+"title": "8. Cookies Policy",
+"content": "Cookies are small text files stored on your device. We use them for essential site functionality and, with your consent, for analytics.\n\n- Strictly Necessary Cookies: These are essential for the website to function and cannot be disabled.\n- Analytical Cookies (Google Analytics): These help us understand traffic and improve the site. These are only activated if you provide explicit consent via our cookie banner.\n\nYou can manage your cookie preferences at any time through the banner or your browser settings."
+},
+{
+"title": "9. Children's Privacy",
+"content": "Our service is not intended for individuals under the age of 18. We do not knowingly collect personal data from children. If you believe we have inadvertently collected such information, please contact us so we can promptly delete it."
+},
+{
+"title": "10. Changes to This Privacy Policy",
+"content": "We may update this policy from time to time. The 'Last updated' date at the top will always reflect the latest version. We encourage you to review this policy periodically."
+},
+{
+"title": "11. Contact Us",
+"content": "If you have any questions about this Privacy Policy or wish to exercise your rights, please contact our Data Controller at: [your-contact-email@loomtask.com]."
+}
+]
     },
 
     // Terms of Use
@@ -286,61 +323,99 @@ faqs: [
     answer: 'Estamos en testing final. Dejá tu email y vas a ser de los primeros cuando abramos. Bonus: acceso anticipado = descuento de por vida.',
   },
 ],
+
+    // Cookies Policy
+    cookiesPolicy: {
+        "title": "Política de Cookies — Loomtask",
+  "lastUpdated": "Última actualización: 12 de octubre de 2025",
+  "dataController": "Responsable del Tratamiento: [Nombre Legal de tu Empresa] — [Tu Dirección Completa] — Email: [tu-email-de-contacto@loomtask.com]",
+  "sections": [
+    {
+      "title": "1. ¿Qué son las Cookies?",
+      "content": "Las cookies son pequeños archivos de texto que se instalan en tu ordenador o dispositivo móvil cuando visitas un sitio web. Se utilizan ampliamente para hacer que los sitios web funcionen, o funcionen de manera más eficiente, así como para proporcionar información a los propietarios del sitio.\n\nEsta Política de Cookies explica cómo en Loomtask ('[Nombre Legal de tu Empresa]') utilizamos cookies en nuestra página de aterrizaje (landing page) y las opciones que tienes a tu disposición."
+    },
+    {
+      "title": "2. Cómo Utilizamos las Cookies",
+      "content": "Utilizamos cookies con un propósito muy limitado y específico: entender cómo los visitantes interactúan con nuestro sitio web. Esto nos permite mejorar nuestra landing page y ofrecer una mejor experiencia a nuestros futuros usuarios. No utilizamos cookies para publicidad ni para rastrearte en otros sitios web.\n\nNuestro uso de cookies se divide en dos categorías, como se explica a continuación."
+    },
+    {
+      "title": "3. Tipos de Cookies que Utilizamos",
+      "content": "Cookies Estrictamente Necesarias:\n\nPropósito: Estas cookies son esenciales para que puedas navegar por el sitio web y utilizar sus funciones, como recordar tus preferencias de consentimiento de cookies. Sin estas cookies, los servicios que has solicitado no pueden ser proporcionados.\n\nConsentimiento: Estas cookies no requieren tu consentimiento, ya que son fundamentales para el funcionamiento del sitio.\n\nEjemplos: cookie_consent_status (para recordar si has aceptado o rechazado las cookies).\n\nCookies Analíticas o de Rendimiento:\n\nPropósito: Estas cookies recopilan información sobre cómo utilizas nuestro sitio web, como qué páginas visitaste y en qué enlaces hiciste clic. Esta información se agrega, se anonimiza y se utiliza únicamente para ayudarnos a mejorar el rendimiento de nuestro sitio web.\n\nConsentimiento: Solo utilizaremos estas cookies si nos das tu consentimiento explícito a través del banner de consentimiento de cookies que aparece la primera vez que visitas nuestro sitio.\n\nEjemplos: _ga, _gid (Utilizadas por Google Analytics para distinguir usuarios y analizar el tráfico)."
+    },
+    {
+      "title": "4. Tu Consentimiento",
+      "content": "En cumplimiento del RGPD y la Directiva ePrivacy, solicitamos tu consentimiento explícito antes de instalar cualquier cookie no esencial en tu dispositivo. La primera vez que visites nuestra landing page, se te presentará un banner de cookies donde podrás:\n\n- Aceptar todas las cookies.\n- Rechazar todas las cookies no esenciales.\n- Configurar tus preferencias.\n\nSi no das tu consentimiento, no utilizaremos cookies analíticas."
+    },
+    {
+      "title": "5. Cómo Gestionar y Eliminar Cookies",
+      "content": "Tienes control total sobre las cookies. Puedes retirar tu consentimiento o cambiar tus preferencias en cualquier momento.\n\nA través de nuestro Banner de Cookies: Puedes cambiar tu configuración en cualquier momento accediendo a las opciones de gestión de cookies en nuestro sitio (normalmente un icono flotante o un enlace en el pie de página).\n\nA través de tu Navegador: La mayoría de los navegadores web permiten cierto control sobre las cookies a través de la configuración del navegador. Puedes configurar tu navegador para que bloquee las cookies o te avise cuando se envíen. Para obtener más información sobre las cookies, incluyendo cómo ver qué cookies se han instalado, visita www.aboutcookies.org o www.allaboutcookies.org.\n\nTen en cuenta que si bloqueas todas las cookies (incluidas las esenciales), es posible que no puedas acceder a todo o parte de nuestro sitio."
+    },
+    {
+      "title": "6. Cookies de Terceros (Google Analytics)",
+      "content": "Utilizamos Google Analytics para ayudarnos a analizar el tráfico en nuestra landing page. Google Analytics utiliza cookies para recopilar estos datos. Para proteger tu privacidad, hemos implementado la anonimización de IP, lo que significa que Google truncará/anonimizará el último octeto de tu dirección IP.\n\nPara más información sobre cómo Google utiliza estos datos, por favor, visita la página de Privacidad y Condiciones de Google."
+    },
+    {
+      "title": "7. Cambios en esta Política de Cookies",
+      "content": "Podemos actualizar esta política para reflejar cambios en la tecnología o la legislación. Cualquier cambio se publicará en esta página con una fecha de revisión actualizada."
+    },
+    {
+      "title": "8. Contacto",
+      "content": "Si tienes alguna pregunta sobre nuestro uso de cookies, por favor, contáctanos en: [tu-email-de-contacto@loomtask.com]."
+    }
+  ]
+},
+
     // Privacy Policy
     privacyPolicy: {
-      title: 'Política de Privacidad — Loomtask',
-      lastUpdated: 'Última actualización: [fecha — p. ej. 9 de octubre de 2025]',
-      dataController: 'Controlador de datos: [Nombre legal de la empresa / persona responsable] — [dirección completa] — Email: [contacto@loomtask.example]',
-      sections: [
-        {
-          title: 'Resumen breve (qué hacemos con tus datos)',
-          content: 'Loomtask recoge únicamente tu correo electrónico cuando te suscribes en la landing page para recibir actualizaciones sobre el desarrollo y lanzamiento del producto. Además, usamos Google Analytics en la landing para medir la interacción y comportamiento de los usuarios con fines de mejora del sitio. No vendemos datos personales a terceros. Para residentes en la Unión Europea, el tratamiento se realiza sobre la base del consentimiento del interesado en el envío de comunicaciones y en el uso de cookies analíticas.',
-        },
-        {
-          title: 'Datos que recogemos',
-          content: 'Correo electrónico (dato personal): para enviar boletines informativos y actualizaciones sobre Loomtask.\n\nDatos de uso / analíticos (p. ej. páginas visitadas, duración de la visita, identificadores de cookies) recogidos mediante Google Analytics en la landing page; estos datos pueden incluir identificadores técnicos y, en su caso, dirección IP en forma agregada o parcial dependiendo de la configuración.',
-        },
-        {
-          title: 'Finalidades y bases legales',
-          content: 'Envío de actualizaciones y comunicaciones sobre el producto (marketing directo limitado): base legal = consentimiento del interesado (art. 6.1.a GDPR) para usuarios en la UE/EEE. El consentimiento será libre, específico, informado e inequívoco: debe otorgarse mediante una casilla (checkbox) no pre-marcada en la landing. Para otras jurisdicciones (p. ej. EEUU), se aplicarán las normas locales pertinentes (ver Sección 8).\n\nAnalítica web (Google Analytics): base legal = consentimiento para la Unión Europea cuando el tratamiento implique cookies no estrictamente necesarias o transferencias internacionales; se solicitará consentimiento explícito para activar las cookies analíticas en el banner de cookies.',
-        },
-        {
-          title: 'Cookies y rastreadores / Google Analytics',
-          content: 'Usamos una solución de consentimiento (banner de cookies) que distingue entre: cookies estrictamente necesarias (si las hubiera), cookies analíticas (Google Analytics) y otras categorías. Las cookies analíticas se activan solo si el usuario da su consentimiento explícito.\n\nGoogle Analytics: Google puede transferir datos fuera del EEE (por ejemplo a servidores de EE. UU.). En varios Estados europeos las autoridades de protección han señalado riesgos de incompatibilidad entre GA y el GDPR por transferencias internacionales y por posible re-identificación del usuario; por ello adoptamos medidas (configuración de anonimización de IP, retención limitada, contratar garantías contractuales donde proceda) y pedimos el consentimiento del usuario. Aun así, la situación regulatoria evoluciona y puede requerir cambios técnicos o dejar de usar el servicio si una autoridad lo considera incompatible. Recomendamos ofrecer siempre una opción clara de rechazo/opt-out en el banner.',
-        },
-        {
-          title: 'Transferencias internacionales de datos',
-          content: 'Usuarios en la UE → Argentina: Argentina cuenta con una decisión de adecuación que permite transferencias desde la UE bajo ciertas condiciones; por tanto, el tratamiento por parte de un responsable con sede en Argentina puede estar cubierto por esa adecuación. Aun así, para servicios de terceros como Google, pueden producirse transferencias adicionales fuera de la zona EEE que requieren garantías.\n\nUsuarios en la UE → proveedores en EEUU (p. ej. Google): existe riesgo regulatorio y las autoridades han advertido sobre transferencias mediante Google Analytics; pedimos consentimiento y aplicamos medidas técnicas/contractuales en la medida de lo posible. Si las autoridades lo exigieran, procederíamos a suspender o modificar el uso de esos servicios.',
-        },
-        {
-          title: 'Plazo de conservación',
-          content: 'Correo electrónico: conservaremos tu email mientras exista interés legítimo para enviar actualizaciones y hasta que solicites la baja; si solicitas baja, lo eliminaremos en un plazo de [p. ej. 30 días], salvo obligación legal en contrario.\n\nDatos analíticos (Google Analytics): retenidos por un periodo limitado (configurable; p. ej. 2–14 meses) y anonimizados/agrupados cuando sea posible para minimizar identifiabilidad.',
-        },
-        {
-          title: 'Tus derechos (UE / GDPR) y cómo ejercerlos',
-          content: 'Si te encuentras en la UE/EEE tienes, entre otros, los derechos a: acceso, rectificación, supresión (derecho al olvido), limitación del tratamiento, portabilidad y oposición; y a retirar el consentimiento en cualquier momento sin afectar la licitud del tratamiento anterior. Para ejercerlos contacta: [contacto@loomtask.example] o por correo postal a [dirección]. Responderemos conforme a los plazos legales (normalmente 1 mes).',
-        },
-        {
-          title: 'Notas específicas para usuarios en EEUU (incl. California)',
-          content: 'Leyes como la CCPA/CPRA de California otorgan a los residentes de California derechos específicos (por ejemplo, derecho a solicitar acceso, eliminación y a optar por no vender o compartir sus datos). Aunque Loomtask no vende datos, proporcionaremos mecanismos para ejercer opt-outs y solicitudes relacionadas con la CCPA/CPRA según corresponda. Para más información sobre CCPA/CPRA y derechos de consumidores en California, consulta la guía oficial.',
-        },
-        {
-          title: 'Seguridad',
-          content: 'Adoptamos medidas técnicas y organizativas razonables para proteger los datos personales frente a pérdida, acceso no autorizado, divulgación o alteración. No obstante, ningún sistema es infalible; si ocurre una brecha de seguridad con riesgo para tus derechos y libertades, notificaremos a la autoridad competente y, cuando proceda, a los afectados conforme a la normativa aplicable.',
-        },
-        {
-          title: 'Menores',
-          content: 'Nuestra landing page no está destinada a menores de [16] años (o la edad que corresponda según la legislación local). No solicitamos ni procesamos conscientemente datos de menores. Si eres menor, no envíes tu correo sin el consentimiento de tu representante legal; si tenemos constancia de que hemos recogido datos de un menor sin la debida autorización, procederemos a su eliminación.',
-        },
-        {
-          title: 'Cambios en la política',
-          content: 'Podemos actualizar esta política para cumplir cambios normativos o de servicio. Publicaremos la fecha de la "Última actualización" arriba y, cuando el cambio sea material, avisaremos por correo a los suscriptores si procede.',
-        },
-        {
-          title: 'Contacto y autoridad de control',
-          content: 'Para consultas sobre esta política o para ejercer derechos: Email: [contacto@loomtask.example] — Dirección: [dirección completa]. Si consideras que tus derechos no han sido atendidos, tienes derecho a presentar una reclamación ante la autoridad de protección de datos competente (por ejemplo, la AEPD en España o la autoridad correspondiente en tu país).',
-        },
-      ],
+     "title": "Política de Privacidad — Loomtask",
+"lastUpdated": "Última actualización: 12 de octubre de 2025",
+"dataController": "Responsable del Tratamiento: [Nombre Legal de tu Empresa] — [Tu Dirección Completa] — Email: [tu-email-de-contacto@loomtask.com]",
+"sections": [
+{
+"title": "1. Introducción y Nuestro Compromiso",
+"content": "Bienvenido/a a Loomtask ('nosotros' o 'nuestro'). Estamos comprometidos a proteger tu privacidad y a gestionar tus datos de forma abierta y transparente. Esta Política de Privacidad explica cómo recopilamos, usamos y protegemos tu información cuando visitas nuestra página de aterrizaje (landing page) y te suscribes a nuestra lista de espera."
+},
+{
+"title": "2. Información que Recopilamos y Por Qué",
+"content": "Recopilamos la mínima cantidad de información necesaria para ofrecer nuestro servicio y mejorar tu experiencia.\n\n- Información Personal (Dirección de email): Cuando te suscribes voluntariamente a nuestra lista de espera, recopilamos tu dirección de correo electrónico. La usamos exclusivamente para enviarte actualizaciones sobre el desarrollo de Loomtask, notificarte sobre nuestro lanzamiento y ofrecerte información sobre oportunidades de acceso anticipado.\n\n- Datos de Uso (Analítica): Usamos Google Analytics para entender cómo los visitantes interactúan con nuestro sitio web. Esto nos ayuda a mejorar nuestra página. Los datos recopilados son agregados y mayormente anónimos, incluyendo tu dirección IP anonimizada, tipo de navegador, páginas visitadas y duración de la sesión. Hemos configurado Google Analytics para anonimizar las direcciones IP y así proteger aún más tu privacidad."
+},
+{
+"title": "3. Base Jurídica para el Tratamiento de tus Datos (RGPD)",
+"content": "Nuestra base jurídica para el tratamiento de tus datos personales depende del contexto específico:\n\n- Suscripción a la Lista de Espera (Email): Tratamos tu dirección de correo electrónico basándonos en tu consentimiento explícito (Artículo 6(1)(a) del RGPD), que otorgas al introducir tu email y enviar activamente el formulario.\n\n- Cookies de Analítica: Instalamos cookies de analítica no esenciales en tu dispositivo basándonos en tu consentimiento explícito (Artículo 6(1)(a) del RGPD), que puedes otorgar o denegar a través de nuestro banner de consentimiento de cookies cuando visitas nuestro sitio por primera vez."
+},
+{
+"title": "4. Cómo Compartimos tu Información",
+"content": "No vendemos ni venderemos tus datos personales. Solo compartimos información con terceros de confianza que actúan como nuestros proveedores de servicios (Encargados del Tratamiento):\n\n- Google Analytics: Para analizar el tráfico del sitio web. Google tiene sus propias políticas de privacidad robustas y cumple con las leyes de protección de datos. Las transferencias de datos están protegidas por Cláusulas Contractuales Tipo (CCT).\n\n- Proveedor de Servicios de Email: Podríamos usar un servicio de email de terceros para gestionar nuestra lista de espera y enviar comunicaciones. Cualquier proveedor que utilicemos será evaluado para asegurar su cumplimiento con el RGPD y tendrá un Acuerdo de Tratamiento de Datos (ATD) con nosotros.\n\n- Obligaciones Legales: Podríamos revelar tu información si así lo exige la ley o en respuesta a solicitudes válidas de autoridades públicas."
+},
+{
+"title": "5. Tus Derechos de Protección de Datos (RGPD)",
+"content": "Como usuario, tienes derechos exhaustivos sobre tus datos personales:\n\n- Derecho de Acceso: Puedes solicitar una copia de la información que tenemos sobre ti.\n- Derecho de Rectificación: Puedes pedirnos que corrijamos cualquier información inexacta.\n- Derecho de Supresión ('Derecho al Olvido'): Puedes solicitar la eliminación de tus datos personales.\n- Derecho a la Limitación del Tratamiento: Puedes pedirnos que limitemos el uso de tus datos.\n- Derecho a la Portabilidad de los Datos: Puedes solicitar tus datos en un formato estructurado y legible por máquina.\n- Derecho de Oposición: Puedes oponerte a que tratemos tus datos para ciertos fines.\n- Derecho a Retirar el Consentimiento: Puedes retirar tu consentimiento en cualquier momento. Darse de baja de nuestra lista de espera es una forma directa de hacerlo.\n- Derecho a presentar una reclamación: Tienes derecho a presentar una reclamación ante una autoridad de control si consideras que no hemos gestionado tus datos correctamente.\n\nPara ejercer cualquiera de estos derechos, por favor, contáctanos en [tu-email-de-contacto@loomtask.com]."
+},
+{
+"title": "6. Seguridad y Conservación de Datos",
+"content": "- Seguridad: Implementamos medidas técnicas y organizativas apropiadas para proteger tus datos contra el acceso no autorizado, la pérdida o la destrucción. Sin embargo, ninguna transmisión por internet es 100% segura.\n\n- Conservación: Conservamos tu dirección de email solo mientras permanezcas en nuestra lista de espera. Si te das de baja, tu email será eliminado permanentemente de nuestras listas activas en un plazo de 30 días. Los datos de analítica agregados se conservan en Google Analytics durante un período de 14 meses antes de su eliminación automática."
+},
+{
+"title": "7. Transferencias Internacionales de Datos",
+"content": "La información que recopilamos puede ser almacenada y tratada en cualquier país donde nosotros o nuestros proveedores de servicios (como Google) tengamos instalaciones. Esto puede implicar la transferencia de tus datos fuera del Espacio Económico Europeo (EEE). Cuando lo hacemos, nos aseguramos de que se les otorgue un grado de protección similar mediante el uso de mecanismos legalmente aprobados, como las Cláusulas Contractuales Tipo (CCT)."
+},
+{
+"title": "8. Política de Cookies",
+"content": "Las cookies son pequeños archivos de texto que se almacenan en tu dispositivo. Las usamos para la funcionalidad esencial del sitio y, con tu consentimiento, para la analítica.\n\n- Cookies Estrictamente Necesarias: Son esenciales para que el sitio web funcione y no se pueden desactivar.\n- Cookies Analíticas (Google Analytics): Nos ayudan a entender el tráfico y a mejorar el sitio. Solo se activan si otorgas tu consentimiento explícito a través de nuestro banner de cookies.\n\nPuedes gestionar tus preferencias de cookies en cualquier momento a través del banner o de la configuración de tu navegador."
+},
+{
+"title": "9. Privacidad de Menores",
+"content": "Nuestro servicio no está dirigido a personas menores de 18 años. No recopilamos de forma consciente datos personales de menores. Si crees que hemos recopilado inadvertidamente dicha información, por favor, contáctanos para que podamos eliminarla de inmediato."
+},
+{
+"title": "10. Cambios en esta Política de Privacidad",
+"content": "Podemos actualizar esta política ocasionalmente. La fecha de 'Última actualización' en la parte superior siempre reflejará la versión más reciente. Te recomendamos que revises esta política periódicamente."
+},
+{
+"title": "11. Contacto",
+"content": "Si tienes alguna pregunta sobre esta Política de Privacidad o deseas ejercer tus derechos, por favor, contacta a nuestro Responsable del Tratamiento en: [tu-email-de-contacto@loomtask.com]."
+}
+]
     },
 
     // Terms of Use

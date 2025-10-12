@@ -98,8 +98,9 @@ const WaitlistForm: React.FC<WaitlistFormProps> = ({ language }) => {
           id="terms"
           className="h-4 w-4 text-[#156193] focus:ring-[#156193] border-gray-300 rounded mt-1"
         />
+        { language === Language.EN ? (
         <label htmlFor="terms" className="ml-2 text-sm text-gray-400">
-          I agree to the{' '}
+        I have read and agree to the{' '}
           <Link href="/terms-of-use" className="underline hover:text-white">
             Terms of Use
           </Link>{' '}
@@ -107,8 +108,21 @@ const WaitlistForm: React.FC<WaitlistFormProps> = ({ language }) => {
           <Link href="/privacy-policy" className="underline hover:text-white">
             Privacy Policy
           </Link>
-          .
+           {' '}and consent to receive communications about Loomtask.
         </label>
+        ) : (
+        <label htmlFor="terms" className="ml-2 text-sm text-gray-400">
+        He leído y acepto los{' '}
+          <Link href="/terms-of-use" className="underline hover:text-white">
+            Terminos de uso
+          </Link>{' '}
+          y{' '}la{' '}
+          <Link href="/privacy-policy" className="underline hover:text-white">
+            Politica de Privacidad
+          </Link>
+           {' '}y consiento recibir comunicaciones sobre Loomtask.
+        </label>
+        ) }
       </div>
       {errors.agreed && <p className="mt-2 text-sm text-red-500">{errors.agreed.message}</p>}
 
