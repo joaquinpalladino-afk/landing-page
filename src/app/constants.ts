@@ -5,83 +5,83 @@ export const COPY = {
     // Header
     
     // Hero
-    devBadge: 'Launching Soon',
-    heroTitle: 'Tasks That Actually Get Done.',
-    heroSubtitle: 'Built for freelancers who ship, not shuffle. Powerful enough to scale your business, simple enough to use before coffee.',
-    
-    // Waitlist Form
-    formPlaceholder: 'your@email.com',
-    formButton: 'Get Early Access',
-    formPrivacy: 'Zero spam. One email when we launch. That\'s it.',
-    formSuccess: 'You\'re in! Check your inbox for something special 🚀',
+   devBadge: 'Coming Soon',
+heroTitle: 'Ship Work. Not Excuses.',
+heroSubtitle: 'The task manager that gets out of your way. Built by freelancers who actually ship.',
 
-    // Problem/Solution
-    problemTitle: 'Every Task App Sucks (In Its Own Special Way)',
-    problemSimpleTitle: 'The "Sticky Note" Apps',
-    problemSimpleText: 'Sure, they\'re cute. Until you\'re drowning in 500 unorganized notes, zero context, and that client project from 3 months ago is... somewhere?',
-    problemComplexTitle: 'The "Enterprise" Monsters',
-    problemComplexText: 'Congrats! You now spend 3 hours managing your task manager. Your actual work? Still waiting while you configure another dashboard.',
-    solutionTitle: 'Enter Loomtask: Built By Freelancers, For Freelancers',
-    solutionText: 'We stripped away the BS and kept what matters. Smart organization that works like your brain. Features that save hours, not create them. It\'s task management that gets out of your way—because your clients are waiting.',
+// Waitlist Form
+formPlaceholder: 'your@email.com',
+formButton: 'Claim Early Access',
+formPrivacy: 'One email when we launch. That`s it.',
+formSuccess: 'You`re in! Check your inbox for something special 🚀',
 
-    // Features
-    featuresTitle: 'Everything You Need. Nothing You Don\'t.',
-    featureAuthTitle: 'One-Click Access',
-    featureAuthText: 'Google or GitHub. Click. You\'re in. No 47-field signup forms.',
-    featureCrudTitle: 'Tasks That Flex With You',
-    featureCrudText: 'Create, edit, complete, delete. Keyboard shortcuts for everything. Work at the speed of thought.',
-    featureTagsTitle: 'Projects That Make Sense',
-    featureTagsText: 'Tag by client, project, or deadline. See everything at a glance. Context switching without the headache.',
-    featureNotificationsTitle: 'Deadlines That Don\'t Sneak Up',
-    featureNotificationsText: 'Smart reminders that know when you actually work. Never ghost a client deadline again.',
-    featureEssentialsTitle: 'The Obvious Stuff, Done Right',
-    featureEssentialsText: 'Priorities that matter. Descriptions that clarify. Search that actually finds things. Revolutionary, we know.',
-    comingSoonTitle: 'This Is Just The Beginning...',
-    comingSoonText: 'AI task breakdown? Time tracking that doesn\'t suck? We\'re building what you actually asked for. No committees. No corporate BS.',
+// Problem/Solution
+problemTitle: 'Task Apps Are Broken. You Know It. We Know It.',
+problemSimpleTitle: 'The "Simple" Ones',
+problemSimpleText: 'Great for grocery lists. Useless when you`re juggling 5 clients, 12 projects, and that invoice due yesterday is... somewhere.',
+problemComplexTitle: 'The "Professional" Ones',
+problemComplexText: '47 features you`ll never use. 3 hours setting up workflows. Meanwhile, your actual work is still waiting.',
+solutionTitle: 'Meet Loomtask: Real Work. Real Simple.',
+solutionText: 'We killed the features you don`t need and perfected the ones you do. Smart tags that think like you. Deadlines that don`t ambush you. Search that actually works. Revolutionary? No. Finally done right? Yes.',
 
-    // Mockup
-    mockupTitle: 'See It In Action',
-    mockupSubtitle: 'Dark mode by default. Because we know when you really work.',
-    mockupScreenshot2: 'Create tasks with ease. Assign a single tag to each task and forget about project management.',
-    mockupScreenshot3: 'View your tasks in detail and edit them on the fly.',
-    mockupScreenshot4: 'Get notifications and reminders so nothing slips through the cracks. Never again!',
+// Features
+featuresTitle: 'Built For How You Actually Work',
+featureAuthTitle: 'Start In Seconds',
+featureAuthText: 'Google or GitHub. One click. You`re working. No BS.',
+featureCrudTitle: 'Tasks That Move Fast',
+featureCrudText: 'Create, edit, done, delete. Keyboard shortcuts everywhere. Work at thought-speed.',
+featureTagsTitle: 'One Tag. Total Clarity.',
+featureTagsText: 'Client, project, or context. One tag per task. Find anything instantly.',
+featureNotificationsTitle: 'Never Miss A Deadline',
+featureNotificationsText: 'Smart reminders that respect your workflow. Because ghosting clients kills careers.',
+featureEssentialsTitle: 'The Basics. Perfected.',
+featureEssentialsText: 'Priority levels. Rich descriptions. Lightning search. Dark mode. The stuff that matters.',
+comingSoonTitle: 'And We`re Just Getting Started...',
+comingSoonText: 'AI task breakdown. Time tracking that works. Team collaboration. We`re building what you asked for, not what a committee decided.',
 
-    // Founder
-    founderQuote: '"I was juggling code and law school, drowning in "productivity" apps that made me less productive. I built Loomtask because I needed it to exist. Simple tools for complex minds. That\'s it."',
-    founderName: 'Joaquin Palladino',
-    founderTitle: 'Builder & User #1',
+// Mockup
+mockupTitle: 'See It. Love It. Ship With It.',
+mockupSubtitle: 'Dark mode first. Because we know when real work happens.',
+mockupScreenshot2: 'One task. One tag. Zero complexity. This is how focus feels.',
+mockupScreenshot3: 'Everything you need in one view. Edit inline. Ship faster.',
+mockupScreenshot4: 'Smart notifications that respect your time. Never drop the ball again.',
 
-    // CTA
-    ctaTitle: 'Stop Managing Tasks. Start Shipping Work.',
-    ctaSubtitle: 'Join 500+ freelancers tired of task app BS. Get early access + lifetime discount.',
+// Founder
+founderQuote: '"I tried everything. Notion, Asana, Trello, sticky notes on my monitor. They all failed me. So I built what I needed: a task manager that respects my time and my sanity. If you ship for a living, this is for you."',
+founderName: 'Joaquin Palladino',
+founderTitle: 'Founder & Power User',
 
-    // Footer
-    footerText: `© ${new Date().getFullYear()} Loomtask. All rights reserved.`, 
+// CTA
+ctaTitle: 'Ready To Ship More?',
+ctaSubtitle: 'Join 500+ freelancers who are done with task app circus. Early access = lifetime discount.',
 
-    // FAQ
-    faqTitle: 'Frequently Asked Questions',
-    faqs: [
-      {
-        question: 'What is Loomtask?',
-        answer: 'Loomtask is a task management app built specifically for freelancers. It\'s designed to be simple, powerful, and get out of your way so you can focus on shipping work.',
-      },
-      {
-        question: 'Who is Loomtask for?',
-        answer: 'Loomtask is for freelancers, consultants, and independent professionals who need a straightforward way to manage their tasks and projects without the bloat of enterprise software.',
-      },
-      {
-        question: 'How is Loomtask different?',
-        answer: 'We cut the fluff. No complex dashboards to configure, no unnecessary features. Just the essentials, done right. We focus on speed, efficiency, and a clean, intuitive interface.',
-      },
-      {
-        question: 'How much will it cost?',
-        answer: 'It will be a $3 USD per month subscription, with a 1-week free trial.',
-      },
-      {
-        question: 'When will it be available?',
-        answer: 'Loomtask is launching soon. Sign up for our waitlist to be the first to know when we go live and to get early access.',
-      },
-    ],
+// Footer
+footerText: `© ${new Date().getFullYear()} Loomtask. Built for shippers.`,
+
+// FAQ
+faqTitle: 'Quick Answers',
+faqs: [
+  {
+    question: 'What makes Loomtask different?',
+    answer: 'Speed and focus. No bloat, no 20-step onboarding, no features you`ll never touch. Just pure task management that works the way your brain does.',
+  },
+  {
+    question: 'Who is this for?',
+    answer: 'Freelancers, consultants, and solo professionals who measure success in shipped work, not organized dashboards.',
+  },
+  {
+    question: 'Why should I trust another task app?',
+    answer: 'Don`t. Join the waitlist, try it free for a week when we launch, and decide for yourself. We`re betting you won`t go back.',
+  },
+  {
+    question: 'What`s the damage?',
+    answer: '$3 USD /month after your free week. Less than your morning coffee. More valuable than your current task manager.',
+  },
+  {
+    question: 'When can I use it?',
+    answer: 'We`re in final testing. Drop your email and you`ll be first in when we open the doors. Plus, early access = lifetime discount.',
+  },
+],
 
     // Privacy Policy
     privacyPolicy: {
@@ -205,87 +205,83 @@ export const COPY = {
     },
   },
   [Language.ES]: {
-    // Header
-    
-    // Hero
-    devBadge: 'Lanzamiento Próximo',
-    heroTitle: 'Tareas Que De Verdad Se Terminan.',
-    heroSubtitle: 'Hecho para freelancers que entregan, no que reorganizan. Potente para escalar tu negocio, simple para usar sin café.',
-    
-    // Waitlist Form
-    formPlaceholder: 'tu@email.com',
-    formButton: 'Acceso Anticipado',
-    formPrivacy: 'Cero spam. Un email cuando lancemos. Punto.',
-    formSuccess: '¡Estás dentro! Revisa tu inbox, hay algo especial 🚀',
+   devBadge: 'Próximamente',
+heroTitle: 'Entrega Trabajo. No Excusas.',
+heroSubtitle: 'El gestor de tareas que no estorba. Creado por freelancers que entregan de verdad.',
 
-    // Problem/Solution
-    problemTitle: 'Todas Las Apps de Tareas Apestan (A Su Manera)',
-    problemSimpleTitle: 'Las Apps "Post-it"',
-    problemSimpleText: 'Sí, son lindas. Hasta que te ahogas en 500 notas sin organizar, cero contexto, y ese proyecto del cliente de hace 3 meses está... ¿en algún lado?',
-    problemComplexTitle: 'Los Monstruos "Corporativos"',
-    problemComplexText: 'Felicidades. Ahora pasas 3 horas gestionando tu gestor de tareas. ¿Tu trabajo real? Esperando mientras configuras otro dashboard.',
-    solutionTitle: 'Llega Loomtask: Hecho Por Freelancers, Para Freelancers',
-    solutionText: 'Eliminamos la basura y mantuvimos lo que importa. Organización inteligente que funciona como tu cerebro. Funciones que ahorran horas, no las crean. Es gestión de tareas que no estorba—porque tus clientes esperan.',
+// Waitlist Form
+formPlaceholder: 'tu@email.com',
+formButton: 'Reserva Tu Acceso',
+formPrivacy: 'Un email cuando lancemos. Nada más.',
+formSuccess: '¡Dentro! Revisa tu inbox, hay algo especial esperándote 🚀',
 
-    // Features
-    featuresTitle: 'Todo Lo Que Necesitas. Nada Que No.',
-    featureAuthTitle: 'Acceso En Un Click',
-    featureAuthText: 'Google o GitHub. Click. Listo. Sin formularios de 47 campos.',
-    featureCrudTitle: 'Tareas Que Se Adaptan',
-    featureCrudText: 'Crear, editar, completar, eliminar. Atajos de teclado para todo. Trabaja a la velocidad del pensamiento.',
-    featureTagsTitle: 'Proyectos Con Sentido',
-    featureTagsText: 'Etiqueta por cliente, proyecto o deadline. Todo visible de un vistazo. Cambio de contexto sin dolor de cabeza.',
-    featureNotificationsTitle: 'Deadlines Que No Te Sorprenden',
-    featureNotificationsText: 'Recordatorios inteligentes que saben cuándo trabajas de verdad. Nunca más ghostees un deadline.',
-    featureEssentialsTitle: 'Lo Obvio, Bien Hecho',
-    featureEssentialsText: 'Prioridades que importan. Descripciones que aclaran. Búsqueda que encuentra. Revolucionario, lo sabemos.',
-    comingSoonTitle: 'Esto Es Solo El Comienzo...',
-    comingSoonText: '¿IA para desglosar tareas? ¿Time tracking que no apesta? Construimos lo que realmente pediste. Sin comités. Sin tonterías corporativas.',
+// Problem/Solution
+problemTitle: 'Las Apps de Tareas Están Rotas. Lo Sabes. Nosotros También.',
+problemSimpleTitle: 'Las "Simples"',
+problemSimpleText: 'Geniales para la lista del super. Inútiles cuando manejas 5 clientes, 12 proyectos, y esa factura de ayer está... en algún lado.',
+problemComplexTitle: 'Las "Profesionales"',
+problemComplexText: '47 funciones que nunca usarás. 3 horas configurando workflows. Mientras tanto, tu trabajo real sigue esperando.',
+solutionTitle: 'Conoce Loomtask: Trabajo Real. Realmente Simple.',
+solutionText: 'Matamos las funciones que no necesitas y perfeccionamos las que sí. Tags inteligentes que piensan como vos. Deadlines que no te emboscan. Búsqueda que funciona. ¿Revolucionario? No. ¿Por fin bien hecho? Sí.',
 
-    // Mockup
-    mockupTitle: 'Míralo En Acción',
-    mockupSubtitle: 'Modo oscuro por defecto. Porque sabemos cuándo trabajas de verdad.',
-    mockupScreenshot2: 'Crea tareas de forma simple y efectiva. Asigna un único tag a cada tarea y olvídate de gestionar proyectos.',
-    mockupScreenshot3: 'Visualiza tus tareas en detalle y edítalas al instante.',
-    mockupScreenshot4: 'Recibe notificaciones y recordatorios para que no se te escape nada. ¡Nunca más!',
+// Features
+featuresTitle: 'Diseñado Para Como Trabajas De Verdad',
+featureAuthTitle: 'Empieza En Segundos',
+featureAuthText: 'Google o GitHub. Un click. Ya estás trabajando. Sin vueltas.',
+featureCrudTitle: 'Tareas Que Vuelan',
+featureCrudText: 'Crear, editar, completar, borrar. Atajos por todos lados. Trabaja a la velocidad del pensamiento.',
+featureTagsTitle: 'Un Tag. Claridad Total.',
+featureTagsText: 'Cliente, proyecto o contexto. Un tag por tarea. Encuentra todo al instante.',
+featureNotificationsTitle: 'Cero Deadlines Perdidos',
+featureNotificationsText: 'Recordatorios inteligentes que respetan tu ritmo. Porque ghostear clientes mata carreras.',
+featureEssentialsTitle: 'Lo Básico. Perfeccionado.',
+featureEssentialsText: 'Niveles de prioridad. Descripciones completas. Búsqueda instantánea. Modo oscuro. Lo que importa.',
+comingSoonTitle: 'Y Recién Empezamos...',
+comingSoonText: 'IA para desglosar tareas. Time tracking que sirve. Colaboración en equipo. Construimos lo que pediste, no lo que decidió un comité.',
 
-    // Founder
-    founderQuote: '"Hacía malabares entre código y derecho, ahogándome en apps de "productividad" que me hacían menos productivo. Construí Loomtask porque necesitaba que existiera. Herramientas simples para mentes complejas. Eso es todo."',
-    founderName: 'Joaquin Palladino',
-    founderTitle: 'Constructor & Usuario #1',
+// Mockup
+mockupTitle: 'Miralo. Enamorate. Entrega Con Él.',
+mockupSubtitle: 'Modo oscuro de entrada. Porque sabemos cuándo pasa el trabajo real.',
+mockupScreenshot2: 'Una tarea. Un tag. Cero complejidad. Así se siente el foco.',
+mockupScreenshot3: 'Todo lo que necesitas en una vista. Edita al vuelo. Entrega más rápido.',
+mockupScreenshot4: 'Notificaciones inteligentes que respetan tu tiempo. No se te escapa nada.',
 
-    // CTA
-    ctaTitle: 'Deja De Gestionar Tareas. Empieza A Entregar Trabajo.',
-    ctaSubtitle: 'Únete a 500+ freelancers hartos de las tonterías de las apps de tareas. Acceso anticipado + descuento de por vida.',
+// Founder
+founderQuote: '"Probé todo. Notion, Asana, Trello, post-its en el monitor. Todos me fallaron. Así que construí lo que necesitaba: un gestor de tareas que respeta mi tiempo y mi cordura. Si vivís de entregar, esto es para vos."',
+founderName: 'Joaquin Palladino',
+founderTitle: 'Fundador & Heavy User',
 
-    // Footer
-    footerText: `© ${new Date().getFullYear()} Loomtask. Todos los derechos reservados.`, 
+// CTA
+ctaTitle: '¿Listo Para Entregar Más?',
+ctaSubtitle: 'Unite a 500+ freelancers que se cansaron del circo de apps. Acceso anticipado = descuento de por vida.',
 
-    // FAQ
-    faqTitle: 'Preguntas Frecuentes',
-    faqs: [
-      {
-        question: '¿Qué es Loomtask?',
-        answer: 'Loomtask es una aplicación de gestión de tareas creada específicamente para freelancers. Está diseñada para ser simple, potente y no interponerse en tu camino para que puedas concentrarte en entregar trabajo.',
-      },
-      {
-        question: '¿Para quién es Loomtask?',
-        answer: 'Loomtask es para freelancers, consultores y profesionales independientes que necesitan una forma sencilla de gestionar sus tareas y proyectos sin la sobrecarga del software empresarial.',
-      },
-      {
-        question: '¿En qué se diferencia Loomtask?',
-        answer: 'Eliminamos lo innecesario. Sin paneles complejos que configurar, sin funciones innecesarias. Solo lo esencial, bien hecho. Nos centramos en la velocidad, la eficiencia y una interfaz limpia e intuitiva.',
-      },
-      {
-        question: '¿Cuánto costará?',
-        answer: 'Tendrá una suscripción de 3 USD por mes y una versión de prueba gratuita por 1 semana.',
-      },
-      {
-        question: '¿Cuándo estará disponible?',
-        answer: 'Loomtask se lanzará pronto. Regístrate en nuestra lista de espera para ser el primero en saber cuándo salimos y para obtener acceso anticipado.',
-      },
-    ],
+// Footer
+footerText: `© ${new Date().getFullYear()} Loomtask. Hecho para los que entregan.`,
 
+// FAQ
+faqTitle: 'Respuestas Rápidas',
+faqs: [
+  {
+    question: '¿Qué hace diferente a Loomtask?',
+    answer: 'Velocidad y foco. Sin bloat, sin onboarding de 20 pasos, sin funciones que nunca vas a tocar. Solo gestión de tareas pura que funciona como tu cerebro.',
+  },
+  {
+    question: '¿Para quién es esto?',
+    answer: 'Freelancers, consultores y profesionales independientes que miden el éxito en trabajo entregado, no en dashboards organizados.',
+  },
+  {
+    question: '¿Por qué confiar en otra app de tareas?',
+    answer: 'No lo hagas. Unite a la lista de espera, probala gratis una semana cuando lancemos, y decidí vos mismo. Apostamos que no vas a volver atrás.',
+  },
+  {
+    question: '¿Cuánto duele?',
+    answer: '$3 USD /mes después de tu semana gratis. Menos que tu café. Más valioso que tu gestor actual.',
+  },
+  {
+    question: '¿Cuándo puedo usarla?',
+    answer: 'Estamos en testing final. Dejá tu email y vas a ser de los primeros cuando abramos. Bonus: acceso anticipado = descuento de por vida.',
+  },
+],
     // Privacy Policy
     privacyPolicy: {
       title: 'Política de Privacidad — Loomtask',
