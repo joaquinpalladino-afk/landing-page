@@ -55,7 +55,7 @@ founderTitle: "Founder & Developer",
 
 // CTA
 ctaTitle: "Lock In Your Founder Discount",
-ctaSubtitle: "First 100 users get 50% off forever. $5/month instead of $10. Join the waitlist now and be first in line when we launch.",
+ctaSubtitle: "First 100 users get 50% off forever. $5 USD /month instead of $10 USD. Join the waitlist now and be first in line when we launch.",
 
 // Footer
 footerText: "© 2025 Loomtask. All rights reserved.",
@@ -77,7 +77,7 @@ faqs: [
   },
   {
     question: "Will there be a free plan?",
-    answer: "We're focused on building a sustainable product, so we're launching with a paid model at $10/month. However, the first 100 users get lifetime access at 50% off—just $5/month forever. No gimmicks, no price hikes for early supporters."
+    answer: "We're focused on building a sustainable product, so we're launching with a paid model at $10 USD /month. However, the first 100 users get lifetime access at 50% off—just $5/month forever. No gimmicks, no price hikes for early supporters."
   },
   {
     question: "Can I use this on mobile?",
@@ -186,7 +186,7 @@ cookiesPolicy: {
     // Terms of Use
     termsOfUse: {
       title: 'Terms of Use — Loomtask (Landing Page)',
-      lastUpdated: 'Last updated: [date]',
+      lastUpdated: 'Last updated: October 12, 2025',
       sections: [
         {
           title: '1. Scope and purpose',
@@ -222,7 +222,7 @@ cookiesPolicy: {
         },
         {
           title: '9. Minors',
-          content: 'The landing page is not directed to minors under 16 years of age (or the minimum age applicable in your country). We do not knowingly collect email addresses from minors. If you are a parent or guardian and believe your minor child has provided their email, contact us to request deletion.',
+          content: 'The landing page is not directed to minors under 18 years of age (or the minimum age applicable in your country). We do not knowingly collect email addresses from minors. If you are a parent or guardian and believe your minor child has provided their email, contact us to request deletion.',
         },
         {
           title: '10. Third-party links',
@@ -242,7 +242,7 @@ cookiesPolicy: {
         },
         {
           title: '14. Contact',
-          content: 'If you have questions about these Terms or wish to exercise your rights, you may write to:\n\nEmail: privacy@loomtask.com (provisional address)\n\nPostal address: [provider address]',
+          content: 'If you have questions about these Terms or wish to exercise your rights, you may write to:\n\nEmail: privacy@loomtask.com (provisional address)\n\n',
         },
       ],
     },
@@ -299,7 +299,7 @@ founderTitle: "Fundador y Desarrollador",
 
 // CTA
 ctaTitle: "Asegurá Tu Descuento de Fundador",
-ctaSubtitle: "Los primeros 100 usuarios obtienen 50% de descuento para siempre. $5/mes en lugar de $10. Unite a la lista ahora y sé de los primeros cuando lancemos.",
+ctaSubtitle: "Los primeros 100 usuarios obtienen 50% de descuento para siempre. $5 USD /mes en lugar de $10 USD. Unite a la lista ahora y sé de los primeros cuando lancemos.",
 
 // Footer
 footerText: "© 2025 Loomtask. Todos los derechos reservados.",
@@ -321,7 +321,7 @@ faqs: [
   },
   {
     question: "¿Habrá un plan gratuito?",
-    answer: "Estamos enfocados en construir un producto sustentable, así que lanzamos con un modelo pago de $10/mes. Sin embargo, los primeros 100 usuarios obtienen acceso de por vida con 50% de descuento—solo $5/mes para siempre. Sin trucos, sin aumentos de precio para los early adopters."
+    answer: "Estamos enfocados en construir un producto sustentable, así que lanzamos con un modelo pago de $10 USD /mes. Sin embargo, los primeros 100 usuarios obtienen acceso de por vida con 50% de descuento—solo $5/mes para siempre. Sin trucos, sin aumentos de precio para los early adopters."
   },
   {
     question: "¿Puedo usarla en el celular?",
@@ -430,7 +430,7 @@ faqs: [
     // Terms of Use
     termsOfUse: {
       title: 'Términos de Uso — Loomtask (Landing Page)',
-      lastUpdated: 'Última actualización: [fecha]',
+      lastUpdated: 'Última actualización: 12 de octubre de 2025',
       sections: [
         {
           title: '1. Alcance y finalidad',
@@ -466,7 +466,7 @@ faqs: [
         },
         {
           title: '9. Menores',
-          content: 'La landing page no está dirigida a menores de 16 años (o la edad mínima aplicable en su país). No recopilaremos conscientemente correos electrónicos de menores. Si usted es padre/madre o tutor y cree que su hijo menor de edad nos ha facilitado su correo, contáctenos en la dirección indicada para proceder a la eliminación.',
+          content: 'La landing page no está dirigida a menores de 18 años (o la edad mínima aplicable en su país). No recopilaremos conscientemente correos electrónicos de menores. Si usted es padre/madre o tutor y cree que su hijo menor de edad nos ha facilitado su correo, contáctenos en la dirección indicada para proceder a la eliminación.',
         },
         {
           title: '10. Enlaces a terceros',
@@ -486,7 +486,7 @@ faqs: [
         },
         {
           title: '14. Contacto',
-          content: 'Si tiene preguntas sobre estos Términos o desea ejercer sus derechos, puede escribir a:\n\nCorreo electrónico: privacy@loomtask.com (dirección provisional)\n\nDirección postal: [dirección del proveedor].',
+          content: 'Si tiene preguntas sobre estos Términos o desea ejercer sus derechos, puede escribir a:\n\nCorreo electrónico: privacy@loomtask.com (dirección provisional)\n\n',
         },
       ],
     },
