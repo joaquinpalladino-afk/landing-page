@@ -22,7 +22,7 @@ export default function Home() {
 
   return (
     <div>
-            <CookieBanner />
+            <CookieBanner language={language} />
             <Header language={language} onLanguageChange={handleLanguageChange} />
             <Hero language={language} />
             <ProblemSolution language={language} />
