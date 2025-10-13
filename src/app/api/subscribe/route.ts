@@ -63,7 +63,7 @@ export async function POST(request: NextRequest) {
     }
 
     try {
-      const emailContent = welcomeEmailTemplate[lang as keyof typeof welcomeEmailTemplate] || welcomeEmailTemplate.EN;
+      const emailContent = welcomeEmailTemplate[lang as keyof typeof welcomeEmailTemplate] || welcomeEmailTemplate.ES;
 
       await resend.emails.send({
         from: "Loomtask <noreply@loomtask.com>",

@@ -21,7 +21,7 @@ export const welcomeEmailTemplate = {
       <div style="font-family: sans-serif; text-align: center; padding: 20px;">
         <img src="https://loomtask.com/logo.png" alt="Loomtask Logo" style="width: 150px; margin-bottom: 20px;">
         <h2>¡Bienvenido a la lista de espera de Loomtask!</h2>
-        <p>Hola,</p>
+        <p>Buen dia,</p>
         <p>Gracias por registrarte. ¡Estás oficialmente en la lista de espera de Loomtask!</p>
         <p>Estamos trabajando duro para ofrecerte la mejor experiencia en gestión de tareas. Serás de los primeros en saber cuándo lanzamos.</p>
         <p>¡Mantente atento a las actualizaciones!</p>

@@ -14,7 +14,7 @@ import Founder from "@/components/Founder";
 import CookieBanner from "@/components/CookieBanner";
 
 export default function Home() {
-    const [language, setLanguage] = useState<Language>(Language.EN);
+    const [language, setLanguage] = useState<Language>(Language.ES);
 
   const handleLanguageChange = useCallback(() => {
     setLanguage(prevLang => prevLang === Language.EN ? Language.ES : Language.EN);
