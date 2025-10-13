@@ -3,7 +3,7 @@ export const welcomeEmailTemplate = {
     subject: "You're on the Loomtask Waitlist!",
     html: `
       <div style="font-family: sans-serif; text-align: center; padding: 20px;">
-        <img src="https://loomtask.com/logo.png" alt="Loomtask Logo" style="width: 150px; margin-bottom: 20px;">
+        <img src="https://loomtask.com/logo/logo.png" alt="Loomtask Logo" style="width: 150px; margin-bottom: 20px;">
         <h2>Welcome to the Loomtask Waitlist!</h2>
         <p>Hi there,</p>
         <p>Thank you for signing up. You're officially on the waitlist for Loomtask!</p>
@@ -19,7 +19,7 @@ export const welcomeEmailTemplate = {
     subject: "¡Estás en la lista de espera de Loomtask!",
     html: `
       <div style="font-family: sans-serif; text-align: center; padding: 20px;">
-        <img src="https://loomtask.com/logo.png" alt="Loomtask Logo" style="width: 150px; margin-bottom: 20px;">
+        <img src="https://loomtask.com/logo/logo.png" alt="Loomtask Logo" style="width: 150px; margin-bottom: 20px;">
         <h2>¡Bienvenido a la lista de espera de Loomtask!</h2>
         <p>Buen dia,</p>
         <p>Gracias por registrarte. ¡Estás oficialmente en la lista de espera de Loomtask!</p>
