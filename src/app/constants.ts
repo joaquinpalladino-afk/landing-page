@@ -39,7 +39,7 @@ featureNotificationsText: "Set due dates and get notified before deadlines sneak
 featureEssentialsTitle: "The Essentials, Perfected",
 featureEssentialsText: "Fast. Clean. No distractions. Built for people who want to get things done, not manage software.",
 comingSoonTitle: "And We're Just Getting Started",
-comingSoonText: "Recurring tasks, calendar sync, mobile app, integrations, and more—all coming soon. We're building this with you, based on your feedback.",
+comingSoonText: "Recurring tasks, calendar sync, mobile app, shared tasks, and more—all coming soon. We're building this with you, based on your feedback.",
 
 // Mockup
 mockupTitle: "Simple Enough to Love. Powerful Enough to Trust.",
