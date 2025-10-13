@@ -49,7 +49,7 @@ mockupScreenshot3: "Clean, distraction-free interface that respects your focus",
 mockupScreenshot4: "Never miss a deadline with smart notifications",
 
 // Founder
-founderQuote: "I built this because I was tired of choosing between apps that did too little and apps that did too much. As a solopreuner, I needed something that just worked—fast, focused, and flexible. This is the tool I wish I had from day one.",
+founderQuote: "I built this because I was tired of choosing between apps that did too little and apps that did too much. As a solopreneur, I needed something that just worked—fast, focused, and flexible. This is the tool I wish I had from day one.",
 founderName: "Joaquin Palladino",
 founderTitle: "Founder & Developer",
 
