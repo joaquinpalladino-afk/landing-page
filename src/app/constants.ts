@@ -93,11 +93,11 @@ faqs: [
 cookiesPolicy: {
  "title": "Cookie Policy — Loomtask",
   "lastUpdated": "Last updated: October 12, 2025",
-  "dataController": "Data Controller: [Your Company's Legal Name] — [Your Full Address] — Email: [your-contact-email@loomtask.com]",
+  "dataController": "Data Controller: Loomtask — Email: hello@loomtask.com",
   "sections": [
     {
       "title": "1. What Are Cookies?",
-      "content": "Cookies are small text files that are placed on your computer or mobile device when you visit a website. They are widely used to make websites work, or work more efficiently, as well as to provide information to the owners of the site. This Cookie Policy explains how we at Loomtask ('[Your Company's Legal Name]') use cookies on our landing page and the choices you have."
+      "content": "Cookies are small text files that are placed on your computer or mobile device when you visit a website. They are widely used to make websites work, or work more efficiently, as well as to provide information to the owners of the site. This Cookie Policy explains how we at Loomtask ('Loomtask') use cookies on our landing page and the choices you have."
     },
     {
       "title": "2. How We Use Cookies",
@@ -125,7 +125,7 @@ cookiesPolicy: {
     },
     {
       "title": "8. Contact Us",
-      "content": "If you have any questions about our use of cookies, please contact us at: [your-contact-email@loomtask.com]."
+      "content": "If you have any questions about our use of cookies, please contact us at: hellol@loomtask.com."
     }
   ]
 },
@@ -134,7 +134,7 @@ cookiesPolicy: {
     privacyPolicy: {
 "title": "Privacy Policy — Loomtask",
 "lastUpdated": "Last updated: October 12, 2025",
-"dataController": "Data Controller: [Your Company's Legal Name] — [Your Full Company Address] — Email: [your-contact-email@loomtask.com]",
+"dataController": "Data Controller: Loomtask — Email: hello@loomtask.com",
 "sections": [
 {
 "title": "1. Introduction and Our Commitment",
@@ -154,7 +154,7 @@ cookiesPolicy: {
 },
 {
 "title": "5. Your Data Protection Rights (GDPR)",
-"content": "As a user, you have comprehensive rights over your personal data:\n\n- Right to Access: You can request a copy of the information we hold about you.\n- Right to Rectification: You can ask us to correct any inaccurate information.\n- Right to Erasure ('Right to be Forgotten'): You can request the deletion of your personal data.\n- Right to Restrict Processing: You can ask us to limit the use of your data.\n- Right to Data Portability: You can request your data in a structured, machine-readable format.\n- Right to Object: You can object to us processing your data for certain purposes.\n- Right to Withdraw Consent: You can withdraw your consent at any time. Unsubscribing from our waitlist is a direct way to do this.\n- Right to Lodge a Complaint: You have the right to lodge a complaint with a supervisory authority if you feel we have not handled your data correctly.\n\nTo exercise any of these rights, please contact us at [your-contact-email@loomtask.com]."
+"content": "As a user, you have comprehensive rights over your personal data:\n\n- Right to Access: You can request a copy of the information we hold about you.\n- Right to Rectification: You can ask us to correct any inaccurate information.\n- Right to Erasure ('Right to be Forgotten'): You can request the deletion of your personal data.\n- Right to Restrict Processing: You can ask us to limit the use of your data.\n- Right to Data Portability: You can request your data in a structured, machine-readable format.\n- Right to Object: You can object to us processing your data for certain purposes.\n- Right to Withdraw Consent: You can withdraw your consent at any time. Unsubscribing from our waitlist is a direct way to do this.\n- Right to Lodge a Complaint: You have the right to lodge a complaint with a supervisory authority if you feel we have not handled your data correctly.\n\nTo exercise any of these rights, please contact us at hello@loomtask.com."
 },
 {
 "title": "6. Data Security and Retention",
@@ -178,7 +178,7 @@ cookiesPolicy: {
 },
 {
 "title": "11. Contact Us",
-"content": "If you have any questions about this Privacy Policy or wish to exercise your rights, please contact our Data Controller at: [your-contact-email@loomtask.com]."
+"content": "If you have any questions about this Privacy Policy or wish to exercise your rights, please contact our Data Controller at: hello@loomtask.com"
 }
 ]
     },
@@ -337,7 +337,7 @@ faqs: [
     cookiesPolicy: {
         "title": "Política de Cookies — Loomtask",
   "lastUpdated": "Última actualización: 12 de octubre de 2025",
-  "dataController": "Responsable del Tratamiento: [Nombre Legal de tu Empresa] — [Tu Dirección Completa] — Email: [tu-email-de-contacto@loomtask.com]",
+  "dataController": "Responsable del Tratamiento: Loomtask — Email: hello@loomtask.com",
   "sections": [
     {
       "title": "1. ¿Qué son las Cookies?",
@@ -369,7 +369,7 @@ faqs: [
     },
     {
       "title": "8. Contacto",
-      "content": "Si tienes alguna pregunta sobre nuestro uso de cookies, por favor, contáctanos en: [tu-email-de-contacto@loomtask.com]."
+      "content": "Si tienes alguna pregunta sobre nuestro uso de cookies, por favor, contáctanos en: hello@loomtask.com"
     }
   ]
 },
@@ -378,7 +378,7 @@ faqs: [
     privacyPolicy: {
      "title": "Política de Privacidad — Loomtask",
 "lastUpdated": "Última actualización: 12 de octubre de 2025",
-"dataController": "Responsable del Tratamiento: [Nombre Legal de tu Empresa] — [Tu Dirección Completa] — Email: [tu-email-de-contacto@loomtask.com]",
+"dataController": "Responsable del Tratamiento: [Nombre Legal de tu Empresa] — [Tu Dirección Completa] — Email: hello@loomtask.com",
 "sections": [
 {
 "title": "1. Introducción y Nuestro Compromiso",
@@ -398,7 +398,7 @@ faqs: [
 },
 {
 "title": "5. Tus Derechos de Protección de Datos (RGPD)",
-"content": "Como usuario, tienes derechos exhaustivos sobre tus datos personales:\n\n- Derecho de Acceso: Puedes solicitar una copia de la información que tenemos sobre ti.\n- Derecho de Rectificación: Puedes pedirnos que corrijamos cualquier información inexacta.\n- Derecho de Supresión ('Derecho al Olvido'): Puedes solicitar la eliminación de tus datos personales.\n- Derecho a la Limitación del Tratamiento: Puedes pedirnos que limitemos el uso de tus datos.\n- Derecho a la Portabilidad de los Datos: Puedes solicitar tus datos en un formato estructurado y legible por máquina.\n- Derecho de Oposición: Puedes oponerte a que tratemos tus datos para ciertos fines.\n- Derecho a Retirar el Consentimiento: Puedes retirar tu consentimiento en cualquier momento. Darse de baja de nuestra lista de espera es una forma directa de hacerlo.\n- Derecho a presentar una reclamación: Tienes derecho a presentar una reclamación ante una autoridad de control si consideras que no hemos gestionado tus datos correctamente.\n\nPara ejercer cualquiera de estos derechos, por favor, contáctanos en [tu-email-de-contacto@loomtask.com]."
+"content": "Como usuario, tienes derechos exhaustivos sobre tus datos personales:\n\n- Derecho de Acceso: Puedes solicitar una copia de la información que tenemos sobre ti.\n- Derecho de Rectificación: Puedes pedirnos que corrijamos cualquier información inexacta.\n- Derecho de Supresión ('Derecho al Olvido'): Puedes solicitar la eliminación de tus datos personales.\n- Derecho a la Limitación del Tratamiento: Puedes pedirnos que limitemos el uso de tus datos.\n- Derecho a la Portabilidad de los Datos: Puedes solicitar tus datos en un formato estructurado y legible por máquina.\n- Derecho de Oposición: Puedes oponerte a que tratemos tus datos para ciertos fines.\n- Derecho a Retirar el Consentimiento: Puedes retirar tu consentimiento en cualquier momento. Darse de baja de nuestra lista de espera es una forma directa de hacerlo.\n- Derecho a presentar una reclamación: Tienes derecho a presentar una reclamación ante una autoridad de control si consideras que no hemos gestionado tus datos correctamente.\n\nPara ejercer cualquiera de estos derechos, por favor, contáctanos en hello@loomtask.com"
 },
 {
 "title": "6. Seguridad y Conservación de Datos",
@@ -422,7 +422,7 @@ faqs: [
 },
 {
 "title": "11. Contacto",
-"content": "Si tienes alguna pregunta sobre esta Política de Privacidad o deseas ejercer tus derechos, por favor, contacta a nuestro Responsable del Tratamiento en: [tu-email-de-contacto@loomtask.com]."
+"content": "Si tienes alguna pregunta sobre esta Política de Privacidad o deseas ejercer tus derechos, por favor, contacta a nuestro Responsable del Tratamiento en: hello@loomtask.com"
 }
 ]
     },
