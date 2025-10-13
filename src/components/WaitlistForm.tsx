@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
@@ -15,6 +15,13 @@ const WaitlistForm: React.FC<WaitlistFormProps> = ({ language }) => {
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
   const [message, setMessage] = useState('');
   const copy = COPY[language];
+
+  useEffect(() => {
+    if (localStorage.getItem('waitlist_joined')) {
+      setStatus('success');
+      setMessage(language === Language.EN ? "You're already on the list! We'll be in touch." : "¡Ya estás en la lista! Nos pondremos en contacto.");
+    }
+  }, [language]); 
 
   const formSchema = z.object({
     email: z.string().email({ message: copy.formInvalidEmail }),
@@ -44,7 +51,7 @@ const WaitlistForm: React.FC<WaitlistFormProps> = ({ language }) => {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ email: data.email }),
+        body: JSON.stringify({ email: data.email, language: language }),
       });
 
       const result = await response.json();
@@ -52,6 +59,7 @@ const WaitlistForm: React.FC<WaitlistFormProps> = ({ language }) => {
       if (response.ok) {
         setStatus('success');
         setMessage(language === Language.EN ? "You're on the list! We'll be in touch." : "¡Estás en la lista! Nos pondremos en contacto.");
+        localStorage.setItem('waitlist_joined', 'true');
         reset();
       } else {
         setStatus('error');
