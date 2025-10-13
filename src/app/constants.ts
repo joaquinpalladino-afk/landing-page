@@ -20,9 +20,9 @@ formAgreement: "By joining, you agree to receive product updates and early acces
 // Problem/Solution
 problemTitle: "You're Not Lazy. Your Tools Are.",
 problemSimpleTitle: "Too Simple = No Structure",
-problemSimpleText: "Apple Notes and basic to-do apps feel lightweight, but when you're juggling 3 clients, a side project, and life admin? You're drowning in chaos with no way to organize what actually matters.",
+problemSimpleText: "The basic to-do apps feel lightweight, but when you're juggling 3 clients, a side project, and life admin? You're drowning in chaos with no way to organize what actually matters.",
 problemComplexTitle: "Too Complex = Decision Paralysis",
-problemComplexText: "Notion, ClickUp, and enterprise tools promise everything. But you spend more time configuring databases and choosing templates than actually doing the work. You need to move fast, not build a second brain.",
+problemComplexText: "Enterprise tools promise everything. But you spend more time configuring databases and choosing templates than actually doing the work. You need to move fast, not build a second brain.",
 solutionTitle: "Meet Your Goldilocks Zone",
 solutionText: "A task manager designed for how you actually work. Organize with smart tags instead of rigid project hierarchies. Get reminders when they matter. No bloat. No learning curve. Just you, your tasks, and momentum.",
 
@@ -264,9 +264,9 @@ formAgreement: "Al unirte, aceptás recibir novedades del producto y acceso anti
 // Problem/Solution
 problemTitle: "No Sos Vos. Son Tus Herramientas.",
 problemSimpleTitle: "Muy Simple = Sin Estructura",
-problemSimpleText: "Las notas de Apple y apps básicas se sienten livianas, pero cuando estás malabareando 3 clientes, un proyecto personal y cosas de la vida… terminás ahogado en caos sin forma de organizar lo que realmente importa.",
+problemSimpleText: "Las apps de notas básicas se sienten livianas, pero cuando estás lidiando 3 clientes, un proyecto personal y cosas de la vida… terminás ahogado en caos sin forma de organizar lo que realmente importa.",
 problemComplexTitle: "Muy Complejo = Parálisis Total",
-problemComplexText: "Notion, ClickUp y las herramientas empresariales prometen todo. Pero terminás perdiendo más tiempo armando bases de datos y eligiendo plantillas que haciendo el trabajo real. Necesitás moverte rápido, no construir un segundo cerebro.",
+problemComplexText: "Las herramientas empresariales prometen todo. Pero terminás perdiendo más tiempo armando bases de datos y eligiendo plantillas que haciendo el trabajo real. Necesitás moverte rápido, no construir un segundo cerebro.",
 solutionTitle: "Encontrá Tu Punto Perfecto",
 solutionText: "Un gestor de tareas diseñado para cómo trabajás realmente. Organizá con etiquetas inteligentes en vez de jerarquías rígidas de proyectos. Recibí recordatorios cuando importan. Sin cosas de más. Sin curva de aprendizaje. Solo vos, tus tareas y progreso constante.",
 
