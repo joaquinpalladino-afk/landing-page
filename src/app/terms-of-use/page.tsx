@@ -6,7 +6,7 @@ import { Language } from '@/app/types';
 import Header from "@/components/Header";
 
 function TermsOfUse(){
-  const [language, setLanguage] = useState<Language>(Language.EN);
+  const [language, setLanguage] = useState<Language>(Language.ES);
 
   const handleLanguageChange = useCallback(() => {
     setLanguage(prevLang => prevLang === Language.EN ? Language.ES : Language.EN);
