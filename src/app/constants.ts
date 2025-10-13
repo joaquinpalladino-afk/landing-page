@@ -268,22 +268,22 @@ problemSimpleText: "Las apps de notas básicas se sienten livianas, pero cuando 
 problemComplexTitle: "Muy Complejo = Parálisis Total",
 problemComplexText: "Las herramientas empresariales prometen todo. Pero terminás perdiendo más tiempo armando bases de datos y eligiendo plantillas que haciendo el trabajo real. Necesitás moverte rápido, no construir un segundo cerebro.",
 solutionTitle: "Encontrá Tu Punto Perfecto",
-solutionText: "Un gestor de tareas diseñado para cómo trabajás realmente. Organizá con etiquetas inteligentes en vez de jerarquías rígidas de proyectos. Recibí recordatorios cuando importan. Sin cosas de más. Sin curva de aprendizaje. Solo vos, tus tareas y progreso constante.",
+solutionText: "Un gestor de tareas diseñado vos. Diseñá tu rutina etiquetas inteligentes en vez de jerarquías rígidas de proyectos. Recibí recordatorios que importan. Sin curva de aprendizaje. Solo vos, tus tareas y progreso constante.",
 
 // Features
-featuresTitle: "Todo Lo Que Necesitás. Nada Que Sobre.",
+featuresTitle: "Todo Lo Que Necesitás.",
 featureAuthTitle: "Entrá y Arrancá",
 featureAuthText: "Un click con Google o GitHub. Sin formularios, sin fricciones, sin perder tiempo configurando cuentas.",
 featureCrudTitle: "Creá, Actualizá, Listo",
-featureCrudText: "Agregá tareas en segundos. Editá al vuelo. Tildá y sentí esa satisfacción. Gestionar tareas no debería sentirse como gestionar proyectos.",
+featureCrudText: "Agregá tareas en segundos. Editá en el momento. Tildá y sentí esa satisfacción. Gestionar tareas no debería sentirse como gestionar proyectos.",
 featureTagsTitle: "Etiquetas Inteligentes, No Proyectos",
 featureTagsText: "Olvidate de carpetas anidadas y jerarquías de proyectos. Etiquetá tus tareas por contexto y mirá lo que importa ahora. #urgente #cliente #personal—listo.",
 featureNotificationsTitle: "Recordatorios Que Ayudan de Verdad",
-featureNotificationsText: "Establecé fechas límite y recibí notificaciones antes de que los deadlines te agarren desprevenido. Recordatorios programados te mantienen en la cancha sin agobiarte.",
+featureNotificationsText: "Establecé fechas límite y recibí notificaciones antes de que los deadlines te agarren desprevenido. Recordatorios programados te mantienen activo sin agobiarte.",
 featureEssentialsTitle: "Lo Esencial, Perfeccionado",
 featureEssentialsText: "Rápido. Limpio. Sin distracciones. Construido para gente que quiere hacer las cosas, no administrar software.",
 comingSoonTitle: "Y Recién Empezamos",
-comingSoonText: "Tareas recurrentes, sincronización con calendario, app móvil, integraciones y más—todo en camino. Estamos construyendo esto con vos, basándonos en tu feedback.",
+comingSoonText: "Tareas recurrentes, sincronización con calendario, app móvil, tareas colaborativas y más—todo en camino. Estamos construyendo esto con vos, basándonos en tu feedback.",
 
 // Mockup
 mockupTitle: "Lo Suficientemente Simple Para Amarlo. Lo Suficientemente Potente Para Confiar.",
@@ -293,7 +293,7 @@ mockupScreenshot3: "Interfaz limpia y sin distracciones que respeta tu concentra
 mockupScreenshot4: "Nunca te pierdas un deadline con notificaciones inteligentes",
 
 // Founder
-founderQuote: "Construí esto porque estaba cansado de elegir entre apps que hacían muy poco y apps que hacían demasiado. Como emprendedor, necesitaba algo que simplemente funcionara—rápido, enfocado y flexible. Esta es la herramienta que me hubiera encantado tener desde el día uno.",
+founderQuote: "Construí esta herramienta porque estaba cansado de elegir entre apps que hacían muy poco y apps que hacían demasiado. Como emprendedor, necesitaba algo que simplemente funcionara—rápido, enfocado y flexible. Esta es la herramienta que me hubiera encantado tener desde el día uno.",
 founderName: "Joaquin Palladino",
 founderTitle: "Fundador y Desarrollador",
 
@@ -325,7 +325,7 @@ faqs: [
   },
   {
     question: "¿Puedo usarla en el celular?",
-    answer: "En el lanzamiento, tendremos una web app responsive que funciona en navegadores móviles. Una app móvil dedicada está alta en nuestro roadmap y la construiremos basándonos en el feedback de usuarios después del lanzamiento inicial."
+    answer: "En el lanzamiento, tendremos una web app responsive que funciona en navegadores móviles. Una app móvil dedicada está como prioridad en nuestro roadmap y la construiremos basándonos en el feedback de usuarios después del lanzamiento inicial."
   },
   {
     question: "¿Cómo manejan mis datos y privacidad?",
