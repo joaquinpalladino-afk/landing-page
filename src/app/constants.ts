@@ -6,7 +6,7 @@ export const COPY = {
     
 // Hero 
 devBadge: "⚡In Development",
-heroTitle: "Plan Your Week in 5 Minutes. Not in 2 Hour.",
+heroTitle: "Plan Your Week in 5 Minutes. Not in 2 Hours.",
 heroSubtitle: "The minimalist task manager for freelancers and founders who value their time and mental clarity. No learning curve, no distracting features.",
 
 // Waitlist Form
