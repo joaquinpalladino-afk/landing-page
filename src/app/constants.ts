@@ -6,40 +6,40 @@ export const COPY = {
     
 // Hero 
 devBadge: "⚡In Development",
-heroTitle: "The Task Manager That Actually Gets You",
-heroSubtitle: "Built for freelancers and solopreneurs who are tired of overthinking their to-do list. Not too simple. Not too complex. Just right.",
+heroTitle: "Plan Your Week in 5 Minutes. Not in 2 Hour.",
+heroSubtitle: "The minimalist task manager for freelancers and founders who value their time and mental clarity. No learning curve, no distracting features.",
 
 // Waitlist Form
 formPlaceholder: "Enter your email",
-formButton: "Join the Waitlist",
+formButton: "Claim My Discount",
 formPrivacy: "We respect your privacy. Unsubscribe anytime.",
 formSuccess: "🎉 You're on the list! Check your email for updates.",
 formInvalidEmail: "Please enter a valid email address",
 formAgreement: "By joining, you agree to receive product updates and early access notifications.",
 
 // Problem/Solution
-problemTitle: "You're Not Lazy. Your Tools Are.",
-problemSimpleTitle: "Too Simple = No Structure",
-problemSimpleText: "The basic to-do apps feel lightweight, but when you're juggling 3 clients, a side project, and life admin? You're drowning in chaos with no way to organize what actually matters.",
-problemComplexTitle: "Too Complex = Decision Paralysis",
-problemComplexText: "Enterprise tools promise everything. But you spend more time configuring databases and choosing templates than actually doing the work. You need to move fast, not build a second brain.",
-solutionTitle: "Meet Your Goldilocks Zone",
-solutionText: "A task manager designed for how you actually work. Organize with smart tags instead of rigid project hierarchies. Get reminders when they matter. No bloat. No learning curve. Just you, your tasks, and momentum.",
+problemTitle: "It's Not You. It's Your Tools.",
+problemSimpleTitle: "The Chaos of Simple Notes",
+problemSimpleText: "Your notes app? A mess. Your tasks? Lost between ideas and grocery lists. Juggling 3 clients like this is impossible.",
+problemComplexTitle: "The Paralysis of 'Pro' Tools",
+problemComplexText: "You spend more time setting up boards and choosing templates than actually working. You're building a 'second brain' you never use.",
+solutionTitle: "Clarity is the Sweet Spot.",
+solutionText: "Loomtask replaces rigid hierarchies with flexible tags. It's your system, adapted to your workflow. Zero friction, 100% progress.",
 
 // Features
-featuresTitle: "Everything You Need. Nothing You Don't.",
-featureAuthTitle: "Sign In & Start",
-featureAuthText: "One click with Google or GitHub. No forms, no friction, no wasted time setting up accounts.",
-featureCrudTitle: "Create, Update, Done",
-featureCrudText: "Add tasks in seconds. Edit on the fly. Check them off and feel that dopamine hit. Task management shouldn't feel like project management.",
-featureTagsTitle: "Smart Tags, Not Projects",
-featureTagsText: "Forget nested folders and project hierarchies. Tag your tasks contextually and see what matters right now. #urgent #client #personal—done.",
-featureNotificationsTitle: "Reminders That Actually Help",
-featureNotificationsText: "Set due dates and get notified before deadlines sneak up on you. Scheduled reminders keep you on track without the overwhelm.",
-featureEssentialsTitle: "The Essentials, Perfected",
-featureEssentialsText: "Fast. Clean. No distractions. Built for people who want to get things done, not manage software.",
-comingSoonTitle: "And We're Just Getting Started",
-comingSoonText: "Recurring tasks, calendar sync, mobile app, shared tasks, and more—all coming soon. We're building this with you, based on your feedback.",
+featuresTitle: "Everything You Need.",
+featureAuthTitle: "Start Working in Seconds",
+featureAuthText: "Frictionless setup. Log in with Google or GitHub and start producing. Don't lose your creative momentum on account setup.",
+featureCrudTitle: "Effortless Task Management",
+featureCrudText: "Adding and completing tasks should feel satisfying, not like a chore. Feel the momentum with every checkmark.",
+featureTagsTitle: "Find What Matters, Instantly",
+featureTagsText: "Forget rigid folders. With a flexible tag system like #client #urgent #personal, you'll always have the context you need at a glance.",
+featureNotificationsTitle: "Stay Ahead of Deadlines, Stress-Free",
+featureNotificationsText: "Get smart notifications before deadlines sneak up on you. Stay proactive, not reactive.",
+featureEssentialsTitle: "Zero Distractions, Maximum Focus",
+featureEssentialsText: "We're not building another 'all-in-one' suite. We're building a sharp, focused tool that does one thing perfectly: helping you get your work done.",
+comingSoonTitle: "Built With You, For You",
+comingSoonText: "Your feedback as a founding member will shape the future of Loomtask. Recurring tasks, calendar sync, and more—all on the roadmap, prioritized by you.",
 
 // Mockup
 mockupTitle: "Simple Enough to Love. Powerful Enough to Trust.",
@@ -54,8 +54,8 @@ founderName: "Joaquin Palladino",
 founderTitle: "Founder & Developer",
 
 // CTA
-ctaTitle: "Lock In Your Founder Discount",
-ctaSubtitle: "First 100 users get 50% off forever. $5 USD /month instead of $10 USD. Join the waitlist now and be first in line when we launch.",
+ctaTitle: "Shape the Future. Change The Way You Work.",
+ctaSubtitle: "As a thank you to our first 100 believers, we're offering a 50% lifetime discount. Join the waitlist and lock in your founder status for just $5/month, forever.",
 
 // Footer
 footerText: "© 2025 Loomtask. All rights reserved.",
