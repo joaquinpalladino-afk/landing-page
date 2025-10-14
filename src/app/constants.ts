@@ -250,12 +250,12 @@ cookiesPolicy: {
   [Language.ES]: {
  // Hero 
 devBadge: "⚡ En Desarrollo",
-heroTitle: "El Gestor de Tareas Que Te Entiende",
-heroSubtitle: "Creado para freelancers y emprendedores que están hartos de complicarse con su lista de pendientes. Ni muy básico. Ni muy complejo. En el punto justo.",
+heroTitle: "Planifica tu Semana en 5 Minutos. No en 2 Horas",
+heroSubtitle: "La app de tareas minimalista para freelancers y emprendedores que valoran su tiempo y su claridad mental. Sin curvas de aprendizaje, sin funciones que te distraigan.",
 
 // Waitlist Form
 formPlaceholder: "Ingresá tu email",
-formButton: "Unirme a la Lista",
+formButton: "Quiero mi Descuento",
 formPrivacy: "Respetamos tu privacidad. Cancelá cuando quieras.",
 formSuccess: "🎉 ¡Ya estás en la lista! Revisá tu email para actualizaciones.",
 formInvalidEmail: "Por favor ingresá un email válido",
@@ -263,27 +263,27 @@ formAgreement: "Al unirte, aceptás recibir novedades del producto y acceso anti
 
 // Problem/Solution
 problemTitle: "No Sos Vos. Son Tus Herramientas.",
-problemSimpleTitle: "Muy Simple = Sin Estructura",
-problemSimpleText: "Las apps de notas básicas se sienten livianas, pero cuando estás lidiando 3 clientes, un proyecto personal y cosas de la vida… terminás ahogado en caos sin forma de organizar lo que realmente importa.",
-problemComplexTitle: "Muy Complejo = Parálisis Total",
-problemComplexText: "Las herramientas empresariales prometen todo. Pero terminás perdiendo más tiempo armando bases de datos y eligiendo plantillas que haciendo el trabajo real. Necesitás moverte rápido, no construir un segundo cerebro.",
-solutionTitle: "Encontrá Tu Punto Perfecto",
-solutionText: "Un gestor de tareas diseñado vos. Diseñá tu rutina etiquetas inteligentes en vez de jerarquías rígidas de proyectos. Recibí recordatorios que importan. Sin curva de aprendizaje. Solo vos, tus tareas y progreso constante.",
+problemSimpleTitle: "El Caos de las Notas Simples",
+problemSimpleText: "¿Tu app de notas? Un caos. ¿Tus tareas? Perdidas entre ideas y listas de la compra. Imposible gestionar 3 clientes así.",
+problemComplexTitle: "La Parálisis de las Herramientas 'Pro'",
+problemComplexText: "Pasas más tiempo configurando tableros y eligiendo plantillas que trabajando. Construyes un 'segundo cerebro' que nunca usas.",
+solutionTitle: "La Claridad es el Punto Perfecto.",
+solutionText: "Loomtask reemplaza las jerarquías rígidas con etiquetas flexibles. Es tu sistema, adaptado a tu forma de trabajar. Cero fricción, 100% progreso.",
 
 // Features
 featuresTitle: "Todo Lo Que Necesitás.",
-featureAuthTitle: "Entrá y Arrancá",
-featureAuthText: "Un click con Google o GitHub. Sin formularios, sin fricciones, sin perder tiempo configurando cuentas.",
-featureCrudTitle: "Creá, Actualizá, Listo",
-featureCrudText: "Agregá tareas en segundos. Editá en el momento. Tildá y sentí esa satisfacción. Gestionar tareas no debería sentirse como gestionar proyectos.",
-featureTagsTitle: "Etiquetas Inteligentes, No Proyectos",
-featureTagsText: "Olvidate de carpetas anidadas y jerarquías de proyectos. Etiquetá tus tareas por contexto y mirá lo que importa ahora. #urgente #cliente #personal—listo.",
-featureNotificationsTitle: "Recordatorios Que Ayudan de Verdad",
-featureNotificationsText: "Establecé fechas límite y recibí notificaciones antes de que los deadlines te agarren desprevenido. Recordatorios programados te mantienen activo sin agobiarte.",
-featureEssentialsTitle: "Lo Esencial, Perfeccionado",
-featureEssentialsText: "Rápido. Limpio. Sin distracciones. Construido para gente que quiere hacer las cosas, no administrar software.",
-comingSoonTitle: "Y Recién Empezamos",
-comingSoonText: "Tareas recurrentes, sincronización con calendario, app móvil, tareas colaborativas y más—todo en camino. Estamos construyendo esto con vos, basándonos en tu feedback.",
+featureAuthTitle: "Empeza a Trabajar en Segundos",
+featureAuthText: "Sin fricción. Conéctate con Google o GitHub y empieza a producir. No pierdas tu impulso creativo configurando una cuenta.",
+featureCrudTitle: "Gestión de Tareas Sin Esfuerzo",
+featureCrudText: "Añadir y completar tareas debería ser satisfactorio, no un trámite. Senti el progreso con cada tick.",
+featureTagsTitle: "Encuentra lo que Importa, al Instante",
+featureTagsText: "Olvida las carpetas rígidas. Con un sistema flexible de etiquetas como #cliente #urgente #personal, siempre tendrás el contexto que necesitas a la vista.",
+featureNotificationsTitle: "Anticípate a tus Deadlines, Sin Estrés",
+featureNotificationsText: "Recibe notificaciones inteligentes antes de que las fechas límite te sorprendan. Mantente proactivo, no reactivo.",
+featureEssentialsTitle: "Cero Distracciones, Máximo Foco",
+featureEssentialsText: "No estamos construyendo otro 'todo en uno'. Construimos una herramienta afilada para hacer una sola cosa perfectamente: ayudarte a completar tu trabajo.",
+comingSoonTitle: "Construido con Vos, Para Vos",
+comingSoonText: "Tu feedback como 'fundador' definirá el futuro de Loomtask. Tareas recurrentes, calendario y más, todo en camino según tus prioridades.",
 
 // Mockup
 mockupTitle: "Lo Suficientemente Simple Para Amarlo. Lo Suficientemente Potente Para Confiar.",
@@ -298,8 +298,8 @@ founderName: "Joaquin Palladino",
 founderTitle: "Fundador y Desarrollador",
 
 // CTA
-ctaTitle: "Asegurá Tu Descuento de Fundador",
-ctaSubtitle: "Los primeros 100 usuarios obtienen 50% de descuento para siempre. $5 USD /mes en lugar de $10 USD. Unite a la lista ahora y sé de los primeros cuando lancemos.",
+ctaTitle: "Sé Parte del Futuro. Cambia tu Forma de Trabajar.",
+ctaSubtitle: "Como agradecimiento a nuestros primeros 100 creyentes, ofrecemos un 50% de descuento para siempre. Únete a la lista de espera y asegura tu lugar como fundador por solo $5 USD/mes.",
 
 // Footer
 footerText: "© 2025 Loomtask. Todos los derechos reservados.",
