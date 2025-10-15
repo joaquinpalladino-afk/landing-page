@@ -55,7 +55,7 @@ founderTitle: "Founder & Developer",
 
 // CTA
 ctaTitle: "Shape the Future. Change The Way You Work.",
-ctaSubtitle: "As a thank you to our first 100 believers, we're offering a 50% lifetime discount. Join the waitlist and lock in your founder status for just $5/month, forever.",
+ctaSubtitle: "As a thank you to our first 100 believers, we're offering a 40% lifetime discount. Join the waitlist and lock in your founder status for just $3/month, forever.",
 
 // Footer
 footerText: "© 2025 Loomtask. All rights reserved.",
@@ -77,7 +77,7 @@ faqs: [
   },
   {
     question: "Will there be a free plan?",
-    answer: "We're focused on building a sustainable product, so we're launching with a paid model at $10 USD /month. However, the first 100 users get lifetime access at 50% off—just $5/month forever. No gimmicks, no price hikes for early supporters."
+    answer: "We're focused on building a sustainable product, so we're launching with a paid model at $5 USD /month. However, the first 100 users get lifetime access at 40% off—just $3/month forever. No gimmicks, no price hikes for early supporters."
   },
   {
     question: "Can I use this on mobile?",
@@ -299,7 +299,7 @@ founderTitle: "Fundador y Desarrollador",
 
 // CTA
 ctaTitle: "Sé Parte del Futuro. Cambia tu Forma de Trabajar.",
-ctaSubtitle: "Como agradecimiento a nuestros primeros 100 creyentes, ofrecemos un 50% de descuento para siempre. Únete a la lista de espera y asegura tu lugar como fundador por solo $5 USD/mes.",
+ctaSubtitle: "Como agradecimiento a nuestros primeros 100 creyentes, ofrecemos un 40% de descuento para siempre. Únete a la lista de espera y asegura tu lugar como fundador por solo $3 USD/mes.",
 
 // Footer
 footerText: "© 2025 Loomtask. Todos los derechos reservados.",
@@ -321,7 +321,7 @@ faqs: [
   },
   {
     question: "¿Habrá un plan gratuito?",
-    answer: "Estamos enfocados en construir un producto sustentable, así que lanzamos con un modelo pago de $10 USD /mes. Sin embargo, los primeros 100 usuarios obtienen acceso de por vida con 50% de descuento—solo $5/mes para siempre. Sin trucos, sin aumentos de precio para los early adopters."
+    answer: "Estamos enfocados en construir un producto sustentable, así que lanzamos con un modelo pago de $5 USD /mes. Sin embargo, los primeros 100 usuarios obtienen acceso de por vida con 40% de descuento—solo $3/mes para siempre. Sin trucos, sin aumentos de precio para los early adopters."
   },
   {
     question: "¿Puedo usarla en el celular?",
