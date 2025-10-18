@@ -8,8 +8,8 @@ const Footer: React.FC<{ language: Language }> = ({ language }) => {
   const copy = COPY[language];
 
   return (
-    <footer className="py-8 px-6 border-t border-gray-800">
-      <div className="container mx-auto text-center text-gray-500">
+    <footer className="py-8 px-6 border-t bg-gray-900 border-gray-800">
+      <div className="container mx-auto text-center text-gray-300">
         <p>{copy.footerText}</p>
         <div className="flex justify-center gap-4 mt-4">
           {copy.footerLinks.map((link) => (

@@ -8,7 +8,7 @@ const CTA: React.FC<{ language: Language }> = ({ language }) => {
   const copy = COPY[language];
 
   return (
-    <section className="py-24 px-6 bg-gray-900">
+    <section id="cta" className="py-24 px-6 bg-gray-800">
       <div className="container mx-auto max-w-3xl text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
           {copy.ctaTitle}

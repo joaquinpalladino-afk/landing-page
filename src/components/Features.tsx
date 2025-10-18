@@ -5,7 +5,7 @@ import { Language } from '@/app/types';
 import { COPY } from '@/app/constants';
 
 const FeatureCard: React.FC<{ title: string; text: string; icon: React.ReactNode }> = ({ title, text, icon }) => (
-  <div className="bg-[#444444]/30 p-6 rounded-lg border border-gray-700 hover:border-[#156193] hover:bg-[#444444]/50 transition-all duration-300">
+  <div className="bg-[#444444]/80 p-6 rounded-lg border border-gray-700 hover:border-[#156193] hover:bg-[#444444]/50 transition-all duration-300">
     <div className="mb-4 text-[#156193]">
       {icon}
     </div>
@@ -37,7 +37,7 @@ const Features: React.FC<{ language: Language }> = ({ language }) => {
           ))}
           <div className="bg-gray-800 p-6 rounded-lg border border-dashed border-gray-600 md:col-span-2 lg:col-span-1 flex flex-col justify-center items-center text-center">
             <h3 className="text-xl font-bold text-white mb-2">{copy.comingSoonTitle}</h3>
-            <p className="text-gray-400">{copy.comingSoonText}</p>
+            <p className="text-gray-300">{copy.comingSoonText}</p>
           </div>
         </div>
       </div>

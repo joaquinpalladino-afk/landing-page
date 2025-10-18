@@ -5,7 +5,7 @@ import { Language } from '@/app/types';
 import { COPY } from '@/app/constants';
 
 const MockupCard: React.FC<{ src: string; alt: string }> = ({ src, alt }) => (
-  <div className="bg-[#444444]/30 p-4 rounded-lg border border-gray-700 hover:border-[#156193] hover:bg-[#444444]/50 transition-all duration-300 cursor-pointer">
+  <div className="bg-[#444444]/30 p-4 rounded-lg border border-gray-700 hover:border-[#156193] hover:bg-[#444444]/50 transition-all duration-300 cursor-pointer transform hover:scale-105 hover:shadow-2xl hover:brightness-110">
     <img src={src} alt={alt} className="rounded-md" />
   </div>
 );
@@ -40,7 +40,7 @@ const Mockup: React.FC<{ language: Language }> = ({ language }) => {
             className="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50"
             onClick={() => setSelectedImage(null)}
         >
-            <div className="bg-[#2d2d2d] p-4 rounded-lg max-w-3xl w-full mx-4" onClick={e => e.stopPropagation()}>
+            <div className="bg-[#2d2d2d] p-4 rounded-lg max-w-5xl w-full mx-4" onClick={e => e.stopPropagation()}>
                 <div className="relative">
                     <img src={selectedImage.src} alt={selectedImage.alt} className="rounded-md w-full" />
                     <button

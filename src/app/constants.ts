@@ -27,6 +27,24 @@ problemComplexText: "You spend more time setting up boards and choosing template
 solutionTitle: "Clarity is the Sweet Spot.",
 solutionText: "Loomtask replaces rigid hierarchies with flexible tags. It's your system, adapted to your workflow. Zero friction, 100% progress.",
 
+// Who is for
+whoIsForTitle: "Who is Loomtask for?",
+whoIsForItems: [
+  {
+    title: "For freelancers who hate Notion's complexity",
+    text: "You juggle multiple clients and your own projects. You need a system that works, not a second job organizing your task manager. If you feel overwhelmed by endless features you don't use, Loomtask is your sigh of relief."
+  },
+  {
+    title: "For founders who need focus, not a thousand features",
+    text: "Your time is your most valuable asset. You can't afford to waste it on complex tools that promise everything but deliver distraction. Loomtask helps you focus on the essential tasks that will move your business forward."
+  },
+  {
+    title: "If your tasks live in scattered notes and get lost",
+    text: "That great idea you wrote down on a sticky note? It's gone. The urgent task you sent yourself in a message? Buried. Loomtask centralizes everything, giving you a single source of truth for what needs to get done."
+  }
+],
+
+
 // Features
 featuresTitle: "Everything You Need.",
 featureAuthTitle: "Start Working in Seconds",
@@ -271,6 +289,24 @@ problemComplexTitle: "La Parálisis de las Herramientas 'Pro'",
 problemComplexText: "Pasas más tiempo configurando tableros y eligiendo plantillas que trabajando. Construyes un 'segundo cerebro' que nunca usas.",
 solutionTitle: "La Claridad es el Punto Perfecto.",
 solutionText: "Loomtask reemplaza las jerarquías rígidas con etiquetas flexibles. Es tu sistema, adaptado a tu forma de trabajar. Cero fricción, 100% progreso.",
+
+// Who is for
+whoIsForTitle: "¿Para quién es Loomtask?",
+whoIsForItems: [
+  {
+    title: "Para freelancers que odian la complejidad de Notion",
+    text: "Haces malabares con múltiples clientes y tus propios proyectos. Necesitas un sistema que funcione, no un segundo trabajo organizando tu gestor de tareas. Si te sientes abrumado por un sinfín de funciones que no usas, Loomtask es tu suspiro de alivio."
+  },
+  {
+    title: "Para emprendedores que necesitan foco, no mil funciones",
+    text: "Tu tiempo es tu activo más valioso. No puedes permitirte desperdiciarlo en herramientas complejas que prometen todo pero solo te distraen. Loomtask te ayuda a centrarte en las tareas esenciales que harán avanzar tu negocio."
+  },
+  {
+    title: "Si tus tareas viven en notas dispersas y se pierden",
+    text: "¿Esa gran idea que anotaste en un post-it? Desapareció. ¿La tarea urgente que te enviaste en un mensaje? Enterrada. Loomtask lo centraliza todo, dándote una única fuente de verdad para lo que necesitas hacer."
+  }
+],
+
 
 // Features
 featuresTitle: "Todo Lo Que Necesitás.",

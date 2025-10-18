@@ -26,6 +26,9 @@ const Header: React.FC<HeaderProps> = ({ language, onLanguageChange }) => {
             <Link href="/#faq" className="px-4 py-2 text-sm text-white hover:text-gray-300 transition-all duration-300">
               FAQs
             </Link>
+            <Link href="/#cta" className="px-4 py-2 text-sm text-white hover:text-gray-300 transition-all duration-300">
+              {language === Language.EN ? 'Join Waitlist' : 'Unite la lista'}
+            </Link>
           </div>
         </div>
         <div className="flex items-center space-x-4">
