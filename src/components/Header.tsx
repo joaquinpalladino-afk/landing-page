@@ -13,7 +13,7 @@ const Header: React.FC<HeaderProps> = ({ language, onLanguageChange }) => {
   const copy = COPY[language];
 
   return (
-    <header className="py-5 px-6 md:px-10 lg:px-20 bg-gray-950/80 backdrop-blur-sm sticky top-0 z-50 border-b border-gray-800">
+    <header className="py-5 px-6 md:px-10 lg:px-20 bg-gray-900 backdrop-blur-sm sticky top-0 z-50 border-b border-gray-800">
       <nav className="container mx-auto flex justify-between items-center">
         <div className="flex items-center space-x-8">
           <Link href="/">

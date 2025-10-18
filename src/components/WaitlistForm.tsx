@@ -71,22 +71,23 @@ const WaitlistForm: React.FC<WaitlistFormProps> = ({ language }) => {
     }
   };
 
-  if (status === 'success') {
+ /* if (status === 'success') {
     return (
       <div className="text-center bg-[#156193]/20 border border-[#156193] text-white py-4 px-6 rounded-lg">
         <p className="font-semibold">{message}</p>
       </div>
     );
-  }
+  } */
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="w-full max-w-md mx-auto">
+      <p className="text-center text-base font-semibold text-medium text-gray-200 mb-4">{copy.formSubtext}</p>
       <div className="flex flex-col sm:flex-row gap-3">
         <input
           {...register('email')}
           type="email"
           placeholder={copy.formPlaceholder}
-          className={`flex-grow w-full px-4 py-3 rounded-md bg-[#444444] text-white placeholder-gray-400 border ${errors.email ? 'border-red-500' : 'border-gray-600'} focus:outline-none focus:ring-2 focus:ring-[#156193]`}
+          className={`flex-grow w-full px-4 py-3 rounded-md bg-gray-600 text-white placeholder-gray-200 border ${errors.email ? 'border-red-500' : 'border-gray-600'} focus:outline-none focus:ring-2 focus:ring-[#156193]`}
         />
         <button
           type="submit"
@@ -107,7 +108,7 @@ const WaitlistForm: React.FC<WaitlistFormProps> = ({ language }) => {
           className="h-4 w-4 text-[#156193] focus:ring-[#156193] border-gray-300 rounded mt-1"
         />
         { language === Language.EN ? (
-        <label htmlFor="terms" className="ml-2 text-sm text-gray-400">
+        <label htmlFor="terms" className="ml-2 text-sm text-gray-200">
         I have read and agree to the{' '}
           <Link href="/terms-of-use" className="underline hover:text-white">
             Terms of Use
@@ -119,7 +120,7 @@ const WaitlistForm: React.FC<WaitlistFormProps> = ({ language }) => {
            {' '}and consent to receive communications about Loomtask.
         </label>
         ) : (
-        <label htmlFor="terms" className="ml-2 text-sm text-gray-400">
+        <label htmlFor="terms" className="ml-2 text-sm text-gray-200">
         He leído y acepto los{' '}
           <Link href="/terms-of-use" className="underline hover:text-white">
             Terminos de uso

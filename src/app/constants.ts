@@ -11,7 +11,8 @@ heroSubtitle: "The minimalist task manager for freelancers and founders who valu
 
 // Waitlist Form
 formPlaceholder: "Enter your email",
-formButton: "Claim My Discount",
+formSubtext: "Final price for founders: $3/month (Normally $5/month)",
+formButton: "Claim My 40% Off",
 formPrivacy: "We respect your privacy. Unsubscribe anytime.",
 formSuccess: "🎉 You're on the list! Check your email for updates.",
 formInvalidEmail: "Please enter a valid email address",
@@ -255,7 +256,8 @@ heroSubtitle: "La app de tareas minimalista para freelancers y emprendedores que
 
 // Waitlist Form
 formPlaceholder: "Ingresá tu email",
-formButton: "Quiero mi Descuento",
+formSubtext: "Precio final para fundadores: $3/mes (Normalmente $5/mes)",
+formButton: "Quiero mi 40% menos",
 formPrivacy: "Respetamos tu privacidad. Cancelá cuando quieras.",
 formSuccess: "🎉 ¡Ya estás en la lista! Revisá tu email para actualizaciones.",
 formInvalidEmail: "Por favor ingresá un email válido",

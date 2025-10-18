@@ -31,7 +31,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID && <GoogleAnalytics />}
-        <div className="min-h-screen bg-gray-900 text-white">
+        <div className="min-h-screen bg-slate-700/20 text-white">
         {children}
         </div>
       </body>

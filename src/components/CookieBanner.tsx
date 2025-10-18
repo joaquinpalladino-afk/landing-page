@@ -42,7 +42,7 @@ const CookieBanner = ({ language }: CookieBannerProps) => {
   }
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 bg-gray-800 text-white p-4 z-50">
+    <div className="fixed bottom-0 left-0 right-0 bg-gray-900 text-white p-4 z-50">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
         <p className="text-sm mb-4 md:mb-0 text-center md:text-left">
           {t.text}{" "}
