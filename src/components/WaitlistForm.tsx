@@ -71,13 +71,13 @@ const WaitlistForm: React.FC<WaitlistFormProps> = ({ language }) => {
     }
   };
 
- /* if (status === 'success') {
+  if (status === 'success') {
     return (
       <div className="text-center bg-[#156193]/20 border border-[#156193] text-white py-4 px-6 rounded-lg">
         <p className="font-semibold">{message}</p>
       </div>
     );
-  } */
+  } 
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="w-full max-w-md mx-auto">
