@@ -11,7 +11,7 @@ heroSubtitle: "The minimalist task manager for freelancers and founders who valu
 
 // Waitlist Form
 formPlaceholder: "Enter your email",
-formSubtext: "Final price for founders: $3/month (Normally $5/month)",
+formSubtext: "Final price for our first 100 believers: $3/month (Normally $5/month)",
 formButton: "Claim My 40% Off",
 formPrivacy: "We respect your privacy. Unsubscribe anytime.",
 formSuccess: "🎉 You're on the list! Check your email for updates.",
@@ -63,6 +63,7 @@ comingSoonText: "Your feedback as a founding member will shape the future of Loo
 // Mockup
 mockupTitle: "Simple Enough to Love. Powerful Enough to Trust.",
 mockupSubtitle: "See how easy it is to take control of your workday",
+mockupScreenshot1: "A simple and efficient interface so you can focus on what`s important.",
 mockupScreenshot2: "Organize with smart tags—no rigid project structures",
 mockupScreenshot3: "Clean, distraction-free interface that respects your focus",
 mockupScreenshot4: "Never miss a deadline with smart notifications",
@@ -274,7 +275,7 @@ heroSubtitle: "La app de tareas minimalista para freelancers y emprendedores que
 
 // Waitlist Form
 formPlaceholder: "Ingresá tu email",
-formSubtext: "Precio final para fundadores: $3/mes (Normalmente $5/mes)",
+formSubtext: "Precio final para nuestros primeros 100 creyentes: $3/mes (Normalmente $5/mes)",
 formButton: "Quiero mi 40% menos",
 formPrivacy: "Respetamos tu privacidad. Cancelá cuando quieras.",
 formSuccess: "🎉 ¡Ya estás en la lista! Revisá tu email para actualizaciones.",
@@ -326,6 +327,7 @@ comingSoonText: "Tu feedback como 'fundador' definirá el futuro de Loomtask. Ta
 // Mockup
 mockupTitle: "Lo Suficientemente Simple Para Amarlo. Lo Suficientemente Potente Para Confiar.",
 mockupSubtitle: "Mirá qué fácil es tomar control de tu día",
+mockupScreenshot1: "Una interfaz simple y eficiente para que te encargues de lo importante.",
 mockupScreenshot2: "Organizá con etiquetas inteligentes—sin estructuras rígidas",
 mockupScreenshot3: "Interfaz limpia y sin distracciones que respeta tu concentración",
 mockupScreenshot4: "Nunca te pierdas un deadline con notificaciones inteligentes",
